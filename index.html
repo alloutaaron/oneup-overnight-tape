@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>ONEUP Overnight Tape</title>
+<meta name="description" content="What moved overnight, how unusual it was, and the news on the wire when it moved.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<style>
+/* One phone column: header, the note's four lines, movers ranked by how unusual, quiet markets, background questions. */
+:root{
+  --bg:#f3f5f7; --surface:#ffffff; --ink:#14202b; --muted:#5b6b78; --rule:#dce2e7;
+  --accent:#1f6f8b; --up:#18794e; --down:#c2362b; --warn:#9a6700; --warnbg:#fff4d6;
+  --c1:#1f6f8b; --c2:#c2561b; --c3:#6b4fbb; --c4:#2f8f3a; --c5:#b0306a;
+  --body:"IBM Plex Sans Condensed",system-ui,-apple-system,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0e151b; --surface:#16212a; --ink:#e4ebf0; --muted:#8fa1ae; --rule:#26343f;
+  --accent:#5fb4d1; --up:#4cc38a; --down:#f2665a; --warn:#e3b341; --warnbg:#2b2410;
+  --c1:#5fb4d1; --c2:#f0955a; --c3:#a993f0; --c4:#6fcf7a; --c5:#ee7aae; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0e151b; --surface:#16212a; --ink:#e4ebf0; --muted:#8fa1ae; --rule:#26343f;
+  --accent:#5fb4d1; --up:#4cc38a; --down:#f2665a; --warn:#e3b341; --warnbg:#2b2410;
+  --c1:#5fb4d1; --c2:#f0955a; --c3:#a993f0; --c4:#6fcf7a; --c5:#ee7aae; color-scheme:dark}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--ink);font:15px/1.45 var(--body);margin:0;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+.wrap{max-width:560px;margin:0 auto;padding-inline:16px;padding-block:0 40px;display:flex;flex-direction:column;gap:20px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:3;background:var(--bg);padding-block:10px 8px;border-bottom:1px solid var(--rule);display:flex;flex-direction:column;gap:6px}
+.top{display:flex;justify-content:space-between;align-items:center;gap:10px}
+h1{font:700 21px/1.1 var(--body);margin:0;letter-spacing:.01em}
+.asof{font:12px/1.35 var(--mono);color:var(--muted)}
+.asof.stale{color:var(--warn)}
+button.refresh{font:600 13px var(--body);color:var(--accent);background:none;border:1px solid var(--accent);border-radius:999px;padding:5px 13px;cursor:pointer;flex:none}
+button.refresh:disabled{opacity:.5}
+nav{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none}
+nav a{font:500 12px var(--body);text-decoration:none;color:var(--muted);border:1px solid var(--rule);border-radius:999px;padding:3px 10px;white-space:nowrap}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+h2{font:600 12px/1 var(--body);text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:0 0 8px}
+section{scroll-margin-top:96px}
+.theses{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.thesis{background:var(--surface);border:1px solid var(--rule);border-radius:8px;padding:10px;font-size:13.5px;min-width:0}
+.thesis b{display:block;font:600 11px var(--body);text-transform:uppercase;letter-spacing:.07em;color:var(--accent);margin-bottom:3px}
+.thesis a{color:inherit;text-decoration-color:var(--rule);text-underline-offset:2px}
+.card{background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:12px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.stack{display:flex;flex-direction:column;gap:10px}
+.head{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;align-items:start}
+.nm{font-weight:600;font-size:16px}
+.sub{font-size:12px;color:var(--muted)}
+.chg{font:500 17px var(--mono);text-align:right;font-variant-numeric:tabular-nums}
+.up{color:var(--up)} .down{color:var(--down)} .flat{color:var(--muted)}
+.z{display:flex;align-items:center;gap:6px;justify-content:flex-end;margin-top:3px}
+.zlab{font:11px var(--mono);color:var(--muted)}
+.ztrack{width:64px;height:5px;background:var(--rule);border-radius:3px;overflow:hidden}
+.zfill{height:100%;border-radius:3px}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{font:500 11px var(--mono);border:1px solid var(--rule);border-radius:4px;padding:1px 6px;color:var(--muted);font-variant-numeric:tabular-nums}
+svg{display:block;width:100%;height:auto}
+svg text{font-family:var(--mono);font-size:10px;fill:var(--muted)}
+.marks{margin:0;padding-left:20px;font-size:13px;display:flex;flex-direction:column;gap:3px}
+.marks .t{font:12px var(--mono);color:var(--muted)}
+.lbl{font:600 11px var(--body);text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.note a{color:var(--accent)}
+.quiet{display:grid;grid-template-columns:1fr auto;gap:4px 12px;font:13px var(--mono);font-variant-numeric:tabular-nums}
+.quiet span:nth-child(even){text-align:right}
+.q h3{font:600 17px/1.25 var(--body);margin:4px 0 0}
+.ct{font-weight:600;font-size:14px}
+.legend{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:12px}
+.legend i{display:inline-block;width:10px;height:3px;border-radius:2px;vertical-align:middle;margin-right:5px}
+.foot{font-size:12px;color:var(--muted)}
+.foot p{margin:0 0 6px}
+.err{background:var(--warnbg);color:var(--warn);border:1px solid var(--warn);border-radius:8px;padding:10px 12px;font-size:13px}
+@media (max-width:370px){.theses{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="top">
+      <h1>ONEUP Overnight Tape</h1>
+      <button class="refresh" id="refresh" type="button">Refresh</button>
+    </div>
+    <div class="asof" id="asof">Loading prices…</div>
+    <nav aria-label="Sections"><a href="#night">The night</a><a href="#moves">Moves</a><a href="#quiet">Quiet</a><a href="#background">Background</a></nav>
+  </header>
+
+  <div id="error" class="err" hidden></div>
+
+  <section id="night" hidden>
+    <h2 id="nightTitle">The night in four lines</h2>
+    <div class="theses" id="theses"></div>
+  </section>
+
+  <section id="moves">
+    <h2>Biggest moves, ranked by how unusual</h2>
+    <div class="stack" id="movers"></div>
+    <p class="foot" style="margin:8px 2px 0">"2.1× normal" means the move was 2.1 times that market's typical daily move over the past year. Numbered dots mark the sharpest moves; the list under each chart is what hit the wire just before or during them, in SGT. A headline at the same time is not proof it caused the move.</p>
+  </section>
+
+  <section id="quiet">
+    <h2>Quiet overnight</h2>
+    <div class="card"><div class="quiet" id="quietList"></div></div>
+  </section>
+
+  <section id="background">
+    <h2>Background: the questions behind the moves</h2>
+    <div class="stack" id="questions"></div>
+  </section>
+
+  <div class="foot" id="foot"></div>
+</div>
+
+<script>
+(function(){
+"use strict";
+const SECTION_FOR = {Rates:"Rates", FX:"FX", Equities:"Equities", Commodities:"Commodities"};
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const sgt = t => new Date(t*1000).toLocaleTimeString("en-GB",{timeZone:"Asia/Singapore",hour:"2-digit",minute:"2-digit"});
+const sgtDay = t => new Date(t*1000).toLocaleDateString("en-GB",{timeZone:"Asia/Singapore",weekday:"short"});
+let O=null, B=null, N=null;
+
+try{ const tg = window.Telegram && window.Telegram.WebApp; if(tg){ tg.ready(); tg.expand(); } }catch(e){}
+
+async function load(path){
+  const r = await fetch(path + "?t=" + Date.now(), {cache:"no-store"});
+  if(!r.ok) throw new Error(path + " " + r.status);
+  return r.json();
+}
+
+// Decimals come from the axis span, not the value: a series living between
+// 0.004 and 0.023 would otherwise label every gridline 0.
+function decimals(span){ return span>=50?0 : span>=5?1 : span>=0.5?2 : span>=0.05?3 : 4; }
+
+function fmtMove(r){
+  if(r.unit==="bp") return (r.move>=0?"+":"−")+Math.abs(r.move).toFixed(1)+" bp";
+  return (r.move>=0?"+":"−")+Math.abs(r.move).toFixed(2)+"%";
+}
+function dir(v){ return Math.abs(v)<1e-9?"flat":(v>0?"up":"down"); }
+
+/* One line chart for everything. xs are positions (bar index or date index),
+   ticks are [position,label]. Levels get a zoomed axis; zero is drawn only
+   when the data reaches it. */
+function lineChart({lines, ticks, marks=[], vlines=[], height=170, colors}){
+  const W=340, H=height, L=46, R=8, T=10, Bm=20;
+  const all = lines.flatMap(l=>l.v.filter(v=>v!=null));
+  let y0=Math.min(...all), y1=Math.max(...all);
+  const pad=(y1-y0)*0.08 || Math.abs(y1)*0.002 || 1; y0-=pad; y1+=pad;
+  const xmax=Math.max(1, ...lines.map(l=>l.v.length-1));
+  const X=i=>L+i/xmax*(W-L-R), Y=v=>T+(1-(v-y0)/(y1-y0))*(H-T-Bm);
+  const dec=decimals(y1-y0), rule=css("--rule");
+  let g="";
+  for(let k=0;k<=3;k++){const v=y0+(y1-y0)*k/3; g+=`<line x1="${L}" x2="${W-R}" y1="${Y(v).toFixed(1)}" y2="${Y(v).toFixed(1)}" stroke="${rule}"/><text x="${L-6}" y="${(Y(v)+3).toFixed(1)}" text-anchor="end">${v.toFixed(dec)}</text>`;}
+  if(y0<0 && y1>0) g+=`<line x1="${L}" x2="${W-R}" y1="${Y(0).toFixed(1)}" y2="${Y(0).toFixed(1)}" stroke="${css("--muted")}" stroke-dasharray="2 3"/>`;
+  // keep edge labels inside the drawing: anchor them inward near either side
+  for(const [i,lab] of ticks){ const x=X(i), a=x>W-R-28?"end":x<L+22?"start":"middle"; g+=`<text x="${x.toFixed(1)}" y="${H-5}" text-anchor="${a}">${esc(lab)}</text>`; }
+  for(const [i,lab] of vlines) g+=`<line x1="${X(i).toFixed(1)}" x2="${X(i).toFixed(1)}" y1="${T}" y2="${H-Bm}" stroke="${rule}" stroke-dasharray="3 3"/><text x="${(X(i)+3).toFixed(1)}" y="${T+9}" text-anchor="start">${esc(lab)}</text>`;
+  let p="";
+  lines.forEach((l,n)=>{
+    const col=colors[n%colors.length]; let d="", on=false;
+    l.v.forEach((v,i)=>{ if(v==null){on=false;return;} d+=(on?"L":"M")+X(i).toFixed(1)+" "+Y(v).toFixed(1); on=true; });
+    if(lines.length===1){
+      const first=l.v.findIndex(v=>v!=null), last=l.v.length-1;
+      p+=`<path d="${d}L${X(last).toFixed(1)} ${H-Bm}L${X(first).toFixed(1)} ${H-Bm}Z" fill="${col}" fill-opacity=".08"/>`;
+    }
+    p+=`<path d="${d}" fill="none" stroke="${col}" stroke-width="1.8" stroke-linejoin="round"/>`;
+    const li=l.v.length-1; if(l.v[li]!=null) p+=`<circle cx="${X(li).toFixed(1)}" cy="${Y(l.v[li]).toFixed(1)}" r="2.8" fill="${col}"/>`;
+  });
+  marks.forEach((m,k)=>{
+    const v=lines[0].v[m.i]; if(v==null) return; const cy=Y(v), ty=cy<T+16?cy+17:cy-8;
+    p+=`<circle cx="${X(m.i).toFixed(1)}" cy="${cy.toFixed(1)}" r="4" fill="${css("--surface")}" stroke="${colors[0]}" stroke-width="2"/><text x="${X(m.i).toFixed(1)}" y="${ty.toFixed(1)}" text-anchor="middle" style="fill:${css("--ink")};font-weight:600">${k+1}</text>`;
+  });
+  return `<svg viewBox="0 0 ${W} ${H}" role="img">${g}${p}</svg>`;
+}
+
+function intradayTicks(t){
+  // a label every 4 hours on the hour, plus a day name where the day changes
+  const out=[]; let lastDay=null;
+  t.forEach((s,i)=>{
+    const d=new Date(s*1000), hh=+d.toLocaleString("en-GB",{timeZone:"Asia/Singapore",hour:"2-digit",hour12:false}), mm=+d.toLocaleString("en-GB",{timeZone:"Asia/Singapore",minute:"2-digit"});
+    const day=sgtDay(s);
+    if(mm<10 && hh%4===0 && (!out.length || i-out[out.length-1][0]>t.length/6)){ out.push([i,(day!==lastDay?day+" ":"")+String(hh).padStart(2,"0")+":00"]); lastDay=day; }
+  });
+  return out;
+}
+
+function renderNight(){
+  const box=document.getElementById("theses"); box.innerHTML="";
+  if(!N || !N.sections || !N.sections.length){ document.getElementById("night").hidden=true; return; }
+  document.getElementById("night").hidden=false;
+  const d=new Date(N.date+"T00:00:00+08:00");
+  document.getElementById("nightTitle").textContent="The night in four lines · note of "+d.toLocaleDateString("en-GB",{weekday:"short",day:"numeric",month:"short"});
+  for(const s of N.sections){
+    box.insertAdjacentHTML("beforeend",`<div class="thesis"><b>${esc(s.section)}</b><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.thesis)}</a></div>`);
+  }
+}
+
+function renderMoves(){
+  const rows=O.rows, colUp=css("--up"), colDown=css("--down");
+  const zmax=Math.max(2.5,...rows.map(r=>Math.abs(r.z||0)));
+  let movers=rows.filter(r=>Math.abs(r.z||0)>=0.5).slice(0,6);
+  if(movers.length<3) movers=rows.slice(0,3);
+  const quiet=rows.filter(r=>!movers.includes(r));
+  const box=document.getElementById("movers"); box.innerHTML="";
+  for(const r of movers){
+    const d=dir(r.move), col=d==="up"?colUp:colDown;
+    const ses=Object.entries(r.sessions).filter(([,v])=>v!=null).map(([k,v])=>`<span class="chip">${k} ${v>=0?"+":"−"}${Math.abs(v).toFixed(r.unit==="bp"?1:2)}${r.unit==="bp"?"bp":"%"}</span>`).join("");
+    const usOpen=r.t.findIndex(s=>{const h=new Date(s*1000).toLocaleString("en-US",{timeZone:"America/New_York",hour:"2-digit",minute:"2-digit",hour12:false});return h>="09:30" && h<"09:40";});
+    const sec=SECTION_FOR[r.group], ns=N&&N.sections?N.sections.find(s=>s.section===sec):null;
+    const svg=lineChart({lines:[{v:r.v}],ticks:intradayTicks(r.t),marks:r.marks,vlines:usOpen>0?[[usOpen,"US open"]]:[],colors:[col]});
+    box.insertAdjacentHTML("beforeend",`<article class="card">
+      <div class="head"><div style="min-width:0"><div class="nm">${esc(r.name)}</div>
+        <div class="sub">${esc(r.group)}${r.plain?" · "+esc(r.plain):""} · ${esc(r.symbol)}</div></div>
+        <div><div class="chg ${d}">${fmtMove(r)}</div>
+        <div class="z"><span class="zlab">${Math.abs(r.z||0).toFixed(1)}× normal</span><span class="ztrack"><span class="zfill" style="display:block;width:${Math.min(100,Math.abs(r.z||0)/zmax*100)}%;background:${col}"></span></span></div></div></div>
+      <div class="chips">${ses}</div>
+      ${svg}
+      ${r.marks.length?`<div class="lbl">On the wire</div><ol class="marks">${r.marks.map(m=>`<li><span class="t">${esc(m.time)}</span> ${esc(m.text)}</li>`).join("")}</ol>`:""}
+      ${ns?`<div class="note sub"><span class="lbl">From the note</span> ${esc(ns.thesis)} <a href="${esc(ns.url)}" target="_blank" rel="noopener">Source →</a></div>`:""}
+    </article>`);
+  }
+  document.getElementById("quietList").innerHTML=quiet.map(r=>`<span>${esc(r.name)}${r.plain?` <span class="sub">${esc(r.plain)}</span>`:""}</span><span class="${dir(r.move)}">${fmtMove(r)}</span>`).join("");
+}
+
+function dateTicks(d){
+  const out=[]; let last="";
+  d.forEach((s,i)=>{ const m=s.slice(0,7); if(m!==last){ last=m; const dt=new Date(s+"T00:00:00Z"); if([0,3,6,9].includes(dt.getUTCMonth()) && i>8 && i<d.length-8) out.push([i,dt.toLocaleDateString("en-GB",{month:"short",timeZone:"UTC"})+" '"+String(dt.getUTCFullYear()).slice(2)]); }});
+  return out;
+}
+
+function renderBackground(){
+  const box=document.getElementById("questions"); box.innerHTML="";
+  if(!B){ box.innerHTML='<p class="sub">Background charts are not available right now.</p>'; return; }
+  const colors=["--c1","--c2","--c3","--c4","--c5"].map(css);
+  for(const q of B.questions){
+    let html=`<div class="q"><h3>${esc(q.question)}</h3></div>`;
+    for(const c of q.charts){
+      let svg, legend;
+      if(c.kind==="strip"){
+        svg=lineChart({lines:c.lines.map(l=>({v:l.v})),ticks:c.x.map((m,i)=>[i,m]).filter((_,i)=>i%2===0),colors});
+      }else{
+        // align every line on the longest date list so they share the x axis
+        const dates=c.lines.reduce((a,l)=>l.d.length>a.length?l.d:a,[]);
+        const lines=c.lines.map(l=>{const m=new Map(l.d.map((d,i)=>[d,l.v[i]])); return {v:dates.map(d=>m.has(d)?m.get(d):null)};});
+        svg=lineChart({lines,ticks:dateTicks(dates),colors});
+      }
+      // one decimal setting per chart, from the whole chart's span, so values line up
+      const vals=c.lines.flatMap(l=>l.v.filter(x=>x!=null)), ld=Math.min(2,Math.max(1,decimals(Math.max(...vals)-Math.min(...vals))));
+      legend=c.lines.map((l,n)=>{const v=l.v.filter(x=>x!=null).pop(); return `<span><i style="background:${colors[n%colors.length]}"></i>${esc(l.label)} <b style="font-family:var(--mono);font-weight:500">${v==null?"–":v.toFixed(ld)}</b></span>`;}).join("");
+      const asof=c.asof?new Date(c.asof+"T00:00:00Z").toLocaleDateString("en-GB",{day:"numeric",month:"short",timeZone:"UTC"}):"";
+      html+=`<div class="card"><div class="ct">${esc(c.title)}</div><div class="legend">${legend}</div>${svg}<div class="sub">${esc(c.unit)} · data to ${esc(asof)} · ${esc(c.source)}</div></div>`;
+    }
+    box.insertAdjacentHTML("beforeend",`<div class="stack">${html}</div>`);
+  }
+}
+
+function renderHeader(){
+  const el=document.getElementById("asof");
+  const upd=new Date(O.updated), age=(Date.now()-upd.getTime())/60000;
+  const start=new Date(O.start);
+  const f=d=>d.toLocaleString("en-GB",{timeZone:"Asia/Singapore",weekday:"short",hour:"2-digit",minute:"2-digit"});
+  el.textContent=`Since ${f(start)} SGT · prices updated ${f(upd)} · refreshes every 15 min`;
+  el.classList.toggle("stale", age>60);
+  if(age>60) el.textContent+=` · ${Math.round(age/60)}h old, the updater may be delayed`;
+  const used=O.rows.filter(r=>/\.\w{3}$/.test(r.symbol)).map(r=>`${r.name}: ${r.symbol}`).join(", ");
+  document.getElementById("foot").innerHTML=`<p>Prices: Yahoo Finance, 5-minute bars, delayed. Futures use named contracts (${esc(used)}), so a contract switch never shows up as a jump.</p>
+    <p>Wire headlines: First Squawk and Walter Bloomberg on Telegram. The four lines come from the morning note; background data from FRED, U.S. Treasury, CME and Yahoo Finance.</p>
+    ${O.failed&&O.failed.length?`<p>Not updated this time: ${esc(O.failed.join("; "))}.</p>`:""}
+    <p>Compiled by Claude. Not financial advice.</p>`;
+}
+
+async function refresh(){
+  const btn=document.getElementById("refresh"), err=document.getElementById("error");
+  btn.disabled=true; btn.textContent="Loading";
+  try{
+    const [o,b,n]=await Promise.allSettled([load("data/overnight.json"),load("data/background.json"),load("data/note.json")]);
+    if(o.status!=="fulfilled") throw o.reason;
+    O=o.value; B=b.status==="fulfilled"?b.value:null; N=n.status==="fulfilled"?n.value:null;
+    err.hidden=true;
+    renderHeader(); renderNight(); renderMoves(); renderBackground();
+  }catch(e){
+    err.hidden=false; err.textContent="Couldn't load the latest prices. Check your connection and tap Refresh. ("+e.message+")";
+  }finally{ btn.disabled=false; btn.textContent="Refresh"; }
+}
+document.getElementById("refresh").addEventListener("click",refresh);
+matchMedia("(prefers-color-scheme: dark)").addEventListener("change",()=>{ if(O){ renderMoves(); renderBackground(); } });
+document.addEventListener("visibilitychange",()=>{ if(document.visibilityState==="visible" && O && Date.now()-new Date(O.updated).getTime()>15*60000) refresh(); });
+refresh();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+{
+ "date": "2026-10-18",
+ "sections": [
+  {
+   "section": "Rates",
+   "thesis": "Treasuries rallied last week as fears that higher borrowing costs could slow AI investment sent investors back to government bonds.",
+   "url": "https://www.wsj.com/finance/stocks/us-death-penalty-execution-rates-41ea3427",
+   "sentences": [
+    {
+     "text": "Treasuries rallied last week as fears that higher borrowing costs could slow AI investment sent investors back to government bonds.",
+     "url": "https://www.wsj.com/finance/stocks/us-death-penalty-execution-rates-41ea3427"
+    },
+    {
+     "text": "The 10-year yield fell 0.146 percentage point to 5.097%, its biggest weekly decline since mid-February.",
+     "url": "https://www.wsj.com/finance/stocks/us-death-penalty-execution-rates-41ea3427"
+    },
+    {
+     "text": "Traders still see a roughly 85% chance of a Fed hike by year-end, with the next meeting on October 27-28.",
+     "url": "https://www.wsj.com/finance/stocks/us-death-penalty-execution-rates-41ea3427"
+    }
+   ]
+  },
+  {
+   "section": "FX",
+   "thesis": "The dollar index slipped after Fed Chair Warsh said he does not prejudge meetings.",
+   "url": "https://www.fxstreet.com/news/dollar-index-slips-as-fed-chair-warsh-wont-prejudge-october-202610161624",
+   "sentences": [
+    {
+     "text": "The dollar index slipped after Fed Chair Warsh said he does not prejudge meetings.",
+     "url": "https://www.fxstreet.com/news/dollar-index-slips-as-fed-chair-warsh-wont-prejudge-october-202610161624"
+    },
+    {
+     "text": "Bets on an October hike fell to about 16% from near 28%, while a December hike is still priced near 90%.",
+     "url": "https://www.fxstreet.com/news/dollar-index-slips-as-fed-chair-warsh-wont-prejudge-october-202610161624"
+    },
+    {
+     "text": "Fed officials are silent from Saturday until the October 27-28 meeting.",
+     "url": "https://www.fxstreet.com/news/dollar-index-slips-as-fed-chair-warsh-wont-prejudge-october-202610161624"
+    }
+   ]
+  },
+  {
+   "section": "Equities",
+   "thesis": "Big Tech had its biggest weekly drop since the April 2025 tariff announcement on AI jitters, with the Nasdaq 100 down 5.5% after a 2.5% fall on Friday.",
+   "url": "https://www.ft.com/content/4c4f03f4-f878-4bd6-8128-5be7e3bb8ca1",
+   "sentences": [
+    {
+     "text": "Big Tech had its biggest weekly drop since the April 2025 tariff announcement on AI jitters, with the Nasdaq 100 down 5.5% after a 2.5% fall on Friday.",
+     "url": "https://www.ft.com/content/4c4f03f4-f878-4bd6-8128-5be7e3bb8ca1"
+    },
+    {
+     "text": "CoreWeave shed almost 12% on Friday and the S&P 500 closed 1.1% lower.",
+     "url": "https://www.ft.com/content/4c4f03f4-f878-4bd6-8128-5be7e3bb8ca1"
+    },
+    {
+     "text": "The PHLX semiconductor index slid 3.8% to its longest losing streak since 2008.",
+     "url": "https://www.wsj.com/finance/stocks/us-death-penalty-execution-rates-41ea3427"
+    }
+   ]
+  },
+  {
+   "section": "Commodities",
+   "thesis": "Oil hit a five-month high after Saudi-led forces reported destroying missiles fired at the kingdom's energy hubs.",
+   "url": "https://www.ft.com/content/8ee22d89-03eb-48dc-99a5-27555373a89c",
+   "sentences": [
+    {
+     "text": "Oil hit a five-month high after Saudi-led forces reported destroying missiles fired at the kingdom's energy hubs.",
+     "url": "https://www.ft.com/content/8ee22d89-03eb-48dc-99a5-27555373a89c"
+    },
+    {
+     "text": "Brent settled 3.7% higher at $109.86 after touching $110 for the first time since May, and WTI settled up 3.5% at $101.41.",
+     "url": "https://www.ft.com/content/8ee22d89-03eb-48dc-99a5-27555373a89c"
+    },
+    {
+     "text": "Two tankers were struck northeast of Jubail, and diesel futures settled at $4.90 a gallon.",
+     "url": "https://www.zerohedge.com/energy/two-tankers-hit-saudi-coast-brent-tops-110"
+    }
+   ]
+  }
+ ]
+}

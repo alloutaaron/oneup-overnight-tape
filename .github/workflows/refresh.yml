@@ -1,0 +1,66 @@
+# Rebuild and publish the site: every 15 minutes, whenever the Mac pushes new
+# background data or a new note, and on demand from the Actions tab.
+# If collect.py or check.py fails, nothing deploys and the last good version
+# stays live.
+name: refresh
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Today's date in Singapore
+        id: day
+        run: echo "d=$(TZ=Asia/Singapore date +%F)" >> "$GITHUB_OUTPUT"
+
+      # contract choices and typical moves are worked out once a day
+      - uses: actions/cache@v4
+        with:
+          path: data/contracts.json
+          key: contracts-${{ steps.day.outputs.d }}
+
+      - name: Collect overnight prices and headlines
+        run: python3 collect.py
+
+      - name: Check every chart
+        run: python3 check.py
+
+      - name: Assemble the site
+        run: |
+          mkdir -p _site/data
+          cp index.html _site/
+          cp data/overnight.json _site/data/
+          cp data/background.json data/note.json _site/data/ 2>/dev/null || true
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
