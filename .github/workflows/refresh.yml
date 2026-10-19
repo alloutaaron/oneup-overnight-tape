@@ -40,6 +40,19 @@ jobs:
       - name: Collect overnight prices and headlines
         run: python3 collect.py
 
+      # the 5-day hourly views: rebuilt at most once an hour, so this cache
+      # carries the file between runs; week.py never fails the job
+      - name: Hour in Singapore
+        id: hr
+        run: echo "h=$(TZ=Asia/Singapore date +%F-%H)" >> "$GITHUB_OUTPUT"
+      - uses: actions/cache@v4
+        with:
+          path: data/week.json
+          key: week-${{ steps.hr.outputs.h }}
+          restore-keys: week-
+      - name: Five-day hourly views of the background charts
+        run: python3 week.py
+
       - name: Check every chart
         run: python3 check.py
 
@@ -49,6 +62,7 @@ jobs:
           cp index.html _site/
           cp data/overnight.json _site/data/
           cp data/background.json data/note.json _site/data/ 2>/dev/null || true
+          cp data/week.json _site/data/ 2>/dev/null || true
 
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

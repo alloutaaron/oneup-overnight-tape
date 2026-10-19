@@ -72,6 +72,10 @@ svg text{font-family:var(--mono);font-size:10px;fill:var(--muted)}
 .legend{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:12px}
 .legend i{display:inline-block;width:10px;height:3px;border-radius:2px;vertical-align:middle;margin-right:5px}
 .foot{font-size:12px;color:var(--muted)}
+.ctop{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.seg{display:flex;flex:none;border:1px solid var(--rule);border-radius:999px;overflow:hidden}
+.seg button{font:500 11px var(--mono);background:none;border:0;color:var(--muted);padding:3px 9px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--accent);color:var(--surface)}
 .foot p{margin:0 0 6px}
 .err{background:var(--warnbg);color:var(--warn);border:1px solid var(--warn);border-radius:8px;padding:10px 12px;font-size:13px}
 @media (max-width:370px){.theses{grid-template-columns:1fr}}
@@ -122,7 +126,7 @@ const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).
 const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const sgt = t => new Date(t*1000).toLocaleTimeString("en-GB",{timeZone:"Asia/Singapore",hour:"2-digit",minute:"2-digit"});
 const sgtDay = t => new Date(t*1000).toLocaleDateString("en-GB",{timeZone:"Asia/Singapore",weekday:"short"});
-let O=null, B=null, N=null;
+let O=null, B=null, N=null, W=null;
 
 try{ const tg = window.Telegram && window.Telegram.WebApp; if(tg){ tg.ready(); tg.expand(); } }catch(e){}
 
@@ -145,7 +149,7 @@ function dir(v){ return Math.abs(v)<1e-9?"flat":(v>0?"up":"down"); }
 /* One line chart for everything. xs are positions (bar index or date index),
    ticks are [position,label]. Levels get a zoomed axis; zero is drawn only
    when the data reaches it. */
-function lineChart({lines, ticks, marks=[], vlines=[], height=170, colors}){
+function lineChart({lines, ticks, marks=[], vlines=[], height=170, colors, connect=false}){
   const W=340, H=height, L=46, R=8, T=10, Bm=20;
   const all = lines.flatMap(l=>l.v.filter(v=>v!=null));
   let y0=Math.min(...all), y1=Math.max(...all);
@@ -162,7 +166,9 @@ function lineChart({lines, ticks, marks=[], vlines=[], height=170, colors}){
   let p="";
   lines.forEach((l,n)=>{
     const col=colors[n%colors.length]; let d="", on=false;
-    l.v.forEach((v,i)=>{ if(v==null){on=false;return;} d+=(on?"L":"M")+X(i).toFixed(1)+" "+Y(v).toFixed(1); on=true; });
+    // connect: join a line across hours its market is shut (Asian and US
+    // sessions on one hourly timeline) instead of breaking it into fragments
+    l.v.forEach((v,i)=>{ if(v==null){ if(!connect) on=false; return;} d+=(on?"L":"M")+X(i).toFixed(1)+" "+Y(v).toFixed(1); on=true; });
     if(lines.length===1){
       const first=l.v.findIndex(v=>v!=null), last=l.v.length-1;
       p+=`<path d="${d}L${X(last).toFixed(1)} ${H-Bm}L${X(first).toFixed(1)} ${H-Bm}Z" fill="${col}" fill-opacity=".08"/>`;
@@ -232,30 +238,64 @@ function dateTicks(d){
   return out;
 }
 
+function weekTicks(t){
+  // one label per SGT day, at its first hourly point
+  // A day with only a few hours (the US Friday session ends early Saturday SGT)
+  // would print its name on top of the next one, so labels keep a minimum gap.
+  const out=[], gap=Math.max(6,t.length/8); let last=null;
+  t.forEach((s,i)=>{ const d=sgtDay(s); if(d!==last){ last=d;
+    // Saturday hours are Friday's US session in SGT: never label them
+    if(d!=="Sat" && d!=="Sun" && i>2 && i<t.length-2 && (!out.length || i-out[out.length-1][0]>=gap)) out.push([i,d]); } });
+  return out;
+}
+
+// One chart card body (legend, drawing, footnote) for either view of a chart.
+function chartBody(c, week, colors){
+  let svg, lines;
+  if(c.kind==="strip"){
+    lines=c.lines;
+    svg=lineChart({lines:c.lines.map(l=>({v:l.v})),ticks:c.x.map((m,i)=>[i,m]).filter((_,i)=>i%2===0),colors});
+  }else if(week){
+    // hourly points on one shared timeline; markets closed at an hour leave a gap
+    const hours=[...new Set(c.lines.flatMap(l=>l.t))].sort((a,b)=>a-b);
+    lines=c.lines.map(l=>{const m=new Map(l.t.map((h,i)=>[h,l.v[i]])); return {label:l.label,v:hours.map(h=>m.has(h)?m.get(h):null)};});
+    const start=O&&O.start?new Date(O.start).getTime()/1000:null, si=start?hours.findIndex(h=>h>=start):-1;
+    svg=lineChart({lines,ticks:weekTicks(hours),vlines:si>0?[[si,"overnight"]]:[],colors,connect:true});
+  }else{
+    // align every line on the longest date list so they share the x axis
+    const dates=c.lines.reduce((a,l)=>l.d.length>a.length?l.d:a,[]);
+    lines=c.lines.map(l=>{const m=new Map(l.d.map((d,i)=>[d,l.v[i]])); return {label:l.label,v:dates.map(d=>m.has(d)?m.get(d):null)};});
+    svg=lineChart({lines,ticks:dateTicks(dates),colors});
+  }
+  // one decimal setting per chart, from the whole chart's span, so values line up
+  const vals=c.lines.flatMap(l=>l.v.filter(x=>x!=null)), ld=Math.min(2,Math.max(1,decimals(Math.max(...vals)-Math.min(...vals))));
+  const legend=c.lines.map((l,n)=>{const v=l.v.filter(x=>x!=null).pop(); return `<span><i style="background:${colors[n%colors.length]}"></i>${esc(l.label)} <b style="font-family:var(--mono);font-weight:500">${v==null?"–":v.toFixed(ld)}</b></span>`;}).join("");
+  const asof=week?(typeof c.asof==="number"?sgtDay(c.asof)+" "+sgt(c.asof)+" SGT":""):(c.asof?new Date(c.asof+"T00:00:00Z").toLocaleDateString("en-GB",{day:"numeric",month:"short",timeZone:"UTC"}):"");
+  const what=week?(c.kind==="strip"?"now vs five sessions ago":"hourly, last 5 trading days"):"daily, last year";
+  return `<div class="legend">${legend}</div>${svg}<div class="sub">${esc(c.unit)} · ${what} · data to ${esc(asof)}${c.source?" · "+esc(c.source):week?" · Yahoo Finance":""}</div>`;
+}
+
 function renderBackground(){
   const box=document.getElementById("questions"); box.innerHTML="";
   if(!B){ box.innerHTML='<p class="sub">Background charts are not available right now.</p>'; return; }
   const colors=["--c1","--c2","--c3","--c4","--c5"].map(css);
+  let n=0;
   for(const q of B.questions){
     let html=`<div class="q"><h3>${esc(q.question)}</h3></div>`;
     for(const c of q.charts){
-      let svg, legend;
-      if(c.kind==="strip"){
-        svg=lineChart({lines:c.lines.map(l=>({v:l.v})),ticks:c.x.map((m,i)=>[i,m]).filter((_,i)=>i%2===0),colors});
-      }else{
-        // align every line on the longest date list so they share the x axis
-        const dates=c.lines.reduce((a,l)=>l.d.length>a.length?l.d:a,[]);
-        const lines=c.lines.map(l=>{const m=new Map(l.d.map((d,i)=>[d,l.v[i]])); return {v:dates.map(d=>m.has(d)?m.get(d):null)};});
-        svg=lineChart({lines,ticks:dateTicks(dates),colors});
-      }
-      // one decimal setting per chart, from the whole chart's span, so values line up
-      const vals=c.lines.flatMap(l=>l.v.filter(x=>x!=null)), ld=Math.min(2,Math.max(1,decimals(Math.max(...vals)-Math.min(...vals))));
-      legend=c.lines.map((l,n)=>{const v=l.v.filter(x=>x!=null).pop(); return `<span><i style="background:${colors[n%colors.length]}"></i>${esc(l.label)} <b style="font-family:var(--mono);font-weight:500">${v==null?"–":v.toFixed(ld)}</b></span>`;}).join("");
-      const asof=c.asof?new Date(c.asof+"T00:00:00Z").toLocaleDateString("en-GB",{day:"numeric",month:"short",timeZone:"UTC"}):"";
-      html+=`<div class="card"><div class="ct">${esc(c.title)}</div><div class="legend">${legend}</div>${svg}<div class="sub">${esc(c.unit)} · data to ${esc(asof)} · ${esc(c.source)}</div></div>`;
+      const wk=W&&W.charts[c.title], id="bg"+(n++);
+      // the 5-day view is the default wherever it exists; the 1-year view stays one tap away
+      const seg=wk?`<div class="seg" role="group" aria-label="Range"><button type="button" data-for="${id}" data-r="5d" aria-pressed="true">5D</button><button type="button" data-for="${id}" data-r="1y" aria-pressed="false">1Y</button></div>`:"";
+      html+=`<div class="card"><div class="ctop"><div class="ct">${esc(c.title)}</div>${seg}</div><div id="${id}">${chartBody(wk||c,!!wk,colors)}</div></div>`;
     }
     box.insertAdjacentHTML("beforeend",`<div class="stack">${html}</div>`);
   }
+  box.onclick=e=>{
+    const b=e.target.closest(".seg button"); if(!b) return;
+    const all=B.questions.flatMap(q=>q.charts), c=all[+b.dataset.for.slice(2)], week=b.dataset.r==="5d";
+    document.getElementById(b.dataset.for).innerHTML=chartBody(week?W.charts[c.title]:c,week,colors);
+    b.parentNode.querySelectorAll("button").forEach(x=>x.setAttribute("aria-pressed",String(x===b)));
+  };
 }
 
 function renderHeader(){
@@ -268,7 +308,7 @@ function renderHeader(){
   if(age>60) el.textContent+=` · ${Math.round(age/60)}h old, the updater may be delayed`;
   const used=O.rows.filter(r=>/\.\w{3}$/.test(r.symbol)).map(r=>`${r.name}: ${r.symbol}`).join(", ");
   document.getElementById("foot").innerHTML=`<p>Prices: Yahoo Finance, 5-minute bars, delayed. Futures use named contracts (${esc(used)}), so a contract switch never shows up as a jump.</p>
-    <p>Wire headlines: First Squawk and Walter Bloomberg on Telegram. The four lines come from the morning note; background data from FRED, U.S. Treasury, CME and Yahoo Finance.</p>
+    <p>Wire headlines: First Squawk and Walter Bloomberg on Telegram. The four lines come from the morning note; background data from FRED, U.S. Treasury, CME and Yahoo Finance (5-day views: hourly Yahoo prices).</p>
     ${O.failed&&O.failed.length?`<p>Not updated this time: ${esc(O.failed.join("; "))}.</p>`:""}
     <p>Compiled by Claude. Not financial advice.</p>`;
 }
@@ -277,9 +317,10 @@ async function refresh(){
   const btn=document.getElementById("refresh"), err=document.getElementById("error");
   btn.disabled=true; btn.textContent="Loading";
   try{
-    const [o,b,n]=await Promise.allSettled([load("data/overnight.json"),load("data/background.json"),load("data/note.json")]);
+    const [o,b,n,w]=await Promise.allSettled([load("data/overnight.json"),load("data/background.json"),load("data/note.json"),load("data/week.json")]);
     if(o.status!=="fulfilled") throw o.reason;
     O=o.value; B=b.status==="fulfilled"?b.value:null; N=n.status==="fulfilled"?n.value:null;
+    W=w.status==="fulfilled"&&w.value&&w.value.charts?w.value:null;
     err.hidden=true;
     renderHeader(); renderNight(); renderMoves(); renderBackground();
   }catch(e){

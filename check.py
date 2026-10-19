@@ -71,6 +71,22 @@ if bg_path.exists():
 else:
     warns.append("no background.json yet")
 
+# The 5-day views are an extra: week.py drops any chart it cannot build, and
+# the page falls back to the 1Y view. So problems here only warn.
+wk_path = HERE / "data" / "week.json"
+if wk_path.exists():
+    try:
+        wk = json.loads(wk_path.read_text())
+        age_h = (dt.datetime.now().timestamp() - wk.get("built", 0)) / 3600
+        if age_h > 3:
+            warns.append(f"week.json is {age_h:.0f}h old (Yahoo may be refusing hourly prices)")
+        for f in wk.get("failed", []):
+            warns.append(f"5-day view: {f}")
+    except Exception as e:
+        warns.append(f"week.json unreadable ({type(e).__name__}); the page shows 1Y views only")
+else:
+    warns.append("no week.json yet; the page shows 1Y views only")
+
 for w in warns:
     print("warn:", w)
 for f in fails:
