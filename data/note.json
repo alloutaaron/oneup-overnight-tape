@@ -1,79 +1,75 @@
 {
- "date": "2026-10-19",
+ "date": "2026-10-20",
  "sections": [
   {
    "section": "Rates",
-   "thesis": "Treasuries had one of their strongest weekly rallies of the year as concerns about the US AI trade and softer rate-rise expectations sent investors into government debt.",
-   "url": "https://www.ft.com/content/4c4f03f4-f878-4bd6-8128-5be7e3bb8ca1",
+   "thesis": "High oil prices lifted US Treasury yields.",
+   "url": "https://www.fxstreet.com/news/gold-sags-near-4-150-as-oil-fuels-us-yields-rebound-202610191818",
    "sentences": [
     {
-     "text": "Treasuries had one of their strongest weekly rallies of the year as concerns about the US AI trade and softer rate-rise expectations sent investors into government debt.",
-     "url": "https://www.ft.com/content/4c4f03f4-f878-4bd6-8128-5be7e3bb8ca1"
+     "text": "High oil prices lifted US Treasury yields.",
+     "url": "https://www.fxstreet.com/news/gold-sags-near-4-150-as-oil-fuels-us-yields-rebound-202610191818"
     },
     {
-     "text": "The 10-year yield was 5.08% late on Friday, down 0.16 percentage points over five sessions, its biggest weekly drop since February.",
-     "url": "https://www.ft.com/content/4c4f03f4-f878-4bd6-8128-5be7e3bb8ca1"
-    },
-    {
-     "text": "Core consumer prices rose 2.6% over the year in September; headline inflation was 3.7%.",
-     "url": "https://www.zerohedge.com/markets/pimco-sees-6-10-year-heres-why-bad-inflation-caps-yields"
+     "text": "China kept its benchmark lending rates steady for a 17th straight month in October.",
+     "url": "https://www.investing.com/news/economic-indicators/china-keeps-benchmark-lending-rates-steady-for-17th-straight-month-in-oct-4958616"
     }
    ]
   },
   {
    "section": "FX",
-   "thesis": "The euro weakened to around 1.1215 against the dollar in early Asian trading on fiscal risks and political instability in France.",
-   "url": "https://www.fxstreet.com/news/euro-attracts-some-sellers-to-near-11200-on-french-political-turmoil-fiscal-risks-202610182316",
+   "thesis": "The euro held gains above 1.1200 despite turmoil in France.",
+   "url": "https://www.fxstreet.com/news/euro-holds-gains-above-11200-despite-french-turmoil-202610200050",
    "sentences": [
     {
-     "text": "The euro weakened to around 1.1215 against the dollar in early Asian trading on fiscal risks and political instability in France.",
-     "url": "https://www.fxstreet.com/news/euro-attracts-some-sellers-to-near-11200-on-french-political-turmoil-fiscal-risks-202610182316"
+     "text": "The euro held gains above 1.1200 despite turmoil in France.",
+     "url": "https://www.fxstreet.com/news/euro-holds-gains-above-11200-despite-french-turmoil-202610200050"
     },
     {
-     "text": "The gap between French and German 10-year yields surged beyond 150 basis points, the widest since the 2011 eurozone debt crisis.",
-     "url": "https://www.fxstreet.com/news/euro-attracts-some-sellers-to-near-11200-on-french-political-turmoil-fiscal-risks-202610182316"
+     "text": "The Australian dollar eyed 0.70 as a China GDP surprise powered a rally.",
+     "url": "https://www.fxstreet.com/news/australian-dollar-eyes-070-as-china-gdp-surprise-powers-rally-202610192258"
     },
     {
-     "text": "Markets price nearly an 83.9% chance the Fed holds this month, up from 49% a month earlier.",
-     "url": "https://www.fxstreet.com/news/euro-attracts-some-sellers-to-near-11200-on-french-political-turmoil-fiscal-risks-202610182316"
+     "text": "The Chinese yuan strengthened against the US dollar on better China growth.",
+     "url": "https://www.fxstreet.com/news/chinese-yuan-strengthens-against-us-dollar-on-better-china-growth-bbh-202610192034"
     }
    ]
   },
   {
    "section": "Equities",
-   "thesis": "The Nasdaq 100 fell 5.5% last week, its biggest weekly drop since April 2025, with chipmakers leading Friday's declines.",
-   "url": "https://www.ft.com/content/4c4f03f4-f878-4bd6-8128-5be7e3bb8ca1",
+   "thesis": "US stocks recovered after an AI sell-off.",
+   "url": "https://www.ft.com/content/915ea7ca-1f35-4847-810a-fb29e8344496",
    "sentences": [
     {
-     "text": "The Nasdaq 100 fell 5.5% last week, its biggest weekly drop since April 2025, with chipmakers leading Friday's declines.",
-     "url": "https://www.ft.com/content/4c4f03f4-f878-4bd6-8128-5be7e3bb8ca1"
+     "text": "US stocks recovered after an AI sell-off.",
+     "url": "https://www.ft.com/content/915ea7ca-1f35-4847-810a-fb29e8344496"
     },
     {
-     "text": "CoreWeave shed almost 12% on Friday and the S&P 500 closed 1.1% lower.",
-     "url": "https://www.ft.com/content/4c4f03f4-f878-4bd6-8128-5be7e3bb8ca1"
+     "text": "Micron and other chip stocks sprang back after a bruising selloff.",
+     "url": "https://www.marketwatch.com/story/micron-and-other-chip-stocks-spring-back-to-life-after-bruising-selloff-16486541"
     },
     {
-     "text": "Inflation above expectations drove up financing costs, threatening the AI construction boom, and Micron dropped 11% over the week.",
-     "url": "https://www.wsj.com/finance/stocks/the-ai-stock-market-wobble-is-a-reminder-this-time-isnt-different-d3ea7f07"
+     "text": "Korea's biggest IPO of the year fell 32% on its debut.",
+     "url": "https://www.zerohedge.com/markets/another-day-another-data-center-faceplant-koreas-biggest-ipo-year-craters-32-debut"
     }
    ]
   },
   {
    "section": "Commodities",
-   "thesis": "Oil hit a five-month high after Saudi-led forces reported destroying missiles fired at the kingdom's energy hubs, with Brent settling 3.7% higher on Friday at $109.86 a barrel.",
-   "url": "https://www.ft.com/content/8ee22d89-03eb-48dc-99a5-27555373a89c",
+   "thesis": "Oil held near a five-month high as attacks around Hormuz threatened a recovery in supply.",
+   "url": "https://www.investing.com/news/commodities-news/oil-holds-near-fivemonth-high-as-hormuz-attacks-threaten-supply-recovery-4958615",
    "sentences": [
     {
-     "text": "Oil hit a five-month high after Saudi-led forces reported destroying missiles fired at the kingdom's energy hubs, with Brent settling 3.7% higher on Friday at $109.86 a barrel.",
-     "url": "https://www.ft.com/content/8ee22d89-03eb-48dc-99a5-27555373a89c"
+     "text": "Oil held near a five-month high as attacks around Hormuz threatened a recovery in supply.",
+     "url": "https://www.investing.com/news/commodities-news/oil-holds-near-fivemonth-high-as-hormuz-attacks-threaten-supply-recovery-4958615"
     },
     {
-     "text": "WTI slipped to around $97.40 in Asia on Monday after seven days of gains, following Trump's waiver of key sanctions on Russia, a move expected to boost Russian fuel exports.",
-     "url": "https://www.fxstreet.com/news/wti-drops-to-near-9750-as-us-waives-russia-oil-sanctions-202610190106"
+     "text": "Houthis targeted more Saudi airports and Aramco sites as the US issued an urgent alert for 12 Middle East states.",
+     "url": "https://www.zerohedge.com/geopolitical/houthis-expand-saudi-aramco-airport-targets-us-issues-urgent-warnings-12-mideast"
     },
     {
-     "text": "Three tankers were damaged in the Strait of Hormuz over the weekend.",
-     "url": "https://www.fxstreet.com/news/wti-drops-to-near-9750-as-us-waives-russia-oil-sanctions-202610190106"
+     "text": "Gold fell below $4,150 amid elevated US Treasury yields.",
+     "url": "https://www.fxstreet.com/news/gold-tumbles-below-4-150-amid-elevated-us-treasury-yields-202610192323"
     }
    ]
   }
