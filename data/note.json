@@ -1,79 +1,79 @@
 {
- "date": "2026-10-21",
+ "date": "2026-10-23",
  "sections": [
   {
    "section": "Rates",
-   "thesis": "Pending home sales in the US fell to a record low in September as mortgage rates surged.",
-   "url": "https://www.ft.com/content/42ed6778-d350-48a6-ba3d-99efca3cd276",
+   "thesis": "Treasuries rallied as Meta's spending plans revived worries about the debt-funded AI boom and traders rushed into haven assets.",
+   "url": "https://www.ft.com/content/6e318b81-a771-4842-9754-e265fef2852f",
    "sentences": [
     {
-     "text": "Pending home sales in the US fell to a record low in September as mortgage rates surged.",
-     "url": "https://www.ft.com/content/42ed6778-d350-48a6-ba3d-99efca3cd276"
+     "text": "Treasuries rallied as Meta's spending plans revived worries about the debt-funded AI boom and traders rushed into haven assets.",
+     "url": "https://www.ft.com/content/6e318b81-a771-4842-9754-e265fef2852f"
     },
     {
-     "text": "The index dropped 7.3% from August against a forecast fall of 0.5%, and housing starts fell more than expected to 1.22mn.",
-     "url": "https://www.ft.com/content/42ed6778-d350-48a6-ba3d-99efca3cd276"
+     "text": "Ten-year yields fell 0.16 percentage points to just below 5 per cent, the best one-day performance since 2024.",
+     "url": "https://www.ft.com/content/6e318b81-a771-4842-9754-e265fef2852f"
     },
     {
-     "text": "Mortgage rates are at three-year highs as Treasury yields rise on expectations the Federal Reserve will need to raise rates to control inflation.",
-     "url": "https://www.ft.com/content/42ed6778-d350-48a6-ba3d-99efca3cd276"
+     "text": "A Barclays strategist said the rally was about potential cracks in the AI trade, not economic data.",
+     "url": "https://www.ft.com/content/6e318b81-a771-4842-9754-e265fef2852f"
     }
    ]
   },
   {
    "section": "FX",
-   "thesis": "The dollar stayed under pressure after slipping to a three-week low, as lower Treasury yields and crude prices reduced its appeal.",
-   "url": "https://www.investing.com/news/economy-news/dollar-on-back-foot-as-us-yields-crude-prices-dip-aussie-buoyed-by-hawkish-rba-4961462",
+   "thesis": "The yen strengthened against the dollar after Japan's inflation report, with USD/JPY near 156.25 in early Asian trading.",
+   "url": "https://www.fxstreet.com/news/japanese-yen-gathers-strength-as-cpi-inflation-exceeds-target-backing-boj-rate-hikes-202610230028",
    "sentences": [
     {
-     "text": "The dollar stayed under pressure after slipping to a three-week low, as lower Treasury yields and crude prices reduced its appeal.",
-     "url": "https://www.investing.com/news/economy-news/dollar-on-back-foot-as-us-yields-crude-prices-dip-aussie-buoyed-by-hawkish-rba-4961462"
+     "text": "The yen strengthened against the dollar after Japan's inflation report, with USD/JPY near 156.25 in early Asian trading.",
+     "url": "https://www.fxstreet.com/news/japanese-yen-gathers-strength-as-cpi-inflation-exceeds-target-backing-boj-rate-hikes-202610230028"
     },
     {
-     "text": "The Australian dollar rose to $0.7013 after RBA Deputy Governor Andrew Hauser said the inflation outlook looked \"materially worse\".",
-     "url": "https://www.investing.com/news/economy-news/dollar-on-back-foot-as-us-yields-crude-prices-dip-aussie-buoyed-by-hawkish-rba-4961462"
+     "text": "National CPI rose 2.1% from a year earlier in September versus 1.9% prior, while the measure excluding fresh food and energy climbed 2.4%.",
+     "url": "https://www.fxstreet.com/news/japanese-yen-gathers-strength-as-cpi-inflation-exceeds-target-backing-boj-rate-hikes-202610230028"
     },
     {
-     "text": "Traders remain wary of the euro, steady at $1.1229, as France faces protests and a worsening fiscal picture.",
-     "url": "https://www.investing.com/news/economy-news/dollar-on-back-foot-as-us-yields-crude-prices-dip-aussie-buoyed-by-hawkish-rba-4961462"
+     "text": "A gauge of the dollar edged 0.1% lower, its third straight daily fall.",
+     "url": "https://www.wsj.com/finance/currencies/asian-currencies-consolidate-amid-focus-on-mideast-developments-716c953b"
     }
    ]
   },
   {
    "section": "Equities",
-   "thesis": "US stocks rebounded after a report that mediators had proposed reviving US-Iran talks, with the Dow up 1% and the S&P 500 up 0.3%.",
-   "url": "https://www.wsj.com/finance/stocks/stocks-make-a-u-turn-on-hopes-of-u-s-iran-diplomacy-39fb739b",
+   "thesis": "Meta led a sharp US tech sell-off after its spending plans reignited concerns about the debt-fuelled AI build-out.",
+   "url": "https://www.ft.com/content/6e318b81-a771-4842-9754-e265fef2852f",
    "sentences": [
     {
-     "text": "US stocks rebounded after a report that mediators had proposed reviving US-Iran talks, with the Dow up 1% and the S&P 500 up 0.3%.",
-     "url": "https://www.wsj.com/finance/stocks/stocks-make-a-u-turn-on-hopes-of-u-s-iran-diplomacy-39fb739b"
+     "text": "Meta led a sharp US tech sell-off after its spending plans reignited concerns about the debt-fuelled AI build-out.",
+     "url": "https://www.ft.com/content/6e318b81-a771-4842-9754-e265fef2852f"
     },
     {
-     "text": "A South Korean data-centre company sank 32% on its debut, sending the Kospi down 3.7%.",
-     "url": "https://www.wsj.com/finance/stocks/stocks-make-a-u-turn-on-hopes-of-u-s-iran-diplomacy-39fb739b"
+     "text": "Its shares tumbled 7 per cent after it forecast needing to raise \"hundreds of billions of dollars\" over several years, stripping about $124bn from its value.",
+     "url": "https://www.ft.com/content/6e318b81-a771-4842-9754-e265fef2852f"
     },
     {
-     "text": "Netflix shares fell more than 5% after hours on its slowest revenue growth in three years and a downbeat outlook.",
-     "url": "https://www.ft.com/content/1b5d97dc-535a-42d9-ac0e-2c00e91c0aed"
+     "text": "The Nasdaq 100 slid 2.9 per cent, the S&P 500 dropped 1.2 per cent and the Philadelphia semiconductor index fell almost 7 per cent.",
+     "url": "https://www.ft.com/content/6e318b81-a771-4842-9754-e265fef2852f"
     }
    ]
   },
   {
    "section": "Commodities",
-   "thesis": "Oil tumbled on reports of a Qatar-Pakistan compromise proposal, then bounced when Iran said reports a deal was close were wrong.",
-   "url": "https://www.zerohedge.com/geopolitical/two-tankers-fire-oman-irgc-boasts-naval-mine-warfare",
+   "thesis": "Oil rose on Friday as Houthi attacks in Saudi Arabia stoked concerns of further disruption to Middle East supplies.",
+   "url": "https://www.investing.com/news/commodities-news/oil-little-changed-as-supply-concern-lingers-amid-houthi-attacks-on-saudi-arabia-4967907",
    "sentences": [
     {
-     "text": "Oil tumbled on reports of a Qatar-Pakistan compromise proposal, then bounced when Iran said reports a deal was close were wrong.",
-     "url": "https://www.zerohedge.com/geopolitical/two-tankers-fire-oman-irgc-boasts-naval-mine-warfare"
+     "text": "Oil rose on Friday as Houthi attacks in Saudi Arabia stoked concerns of further disruption to Middle East supplies.",
+     "url": "https://www.investing.com/news/commodities-news/oil-little-changed-as-supply-concern-lingers-amid-houthi-attacks-on-saudi-arabia-4967907"
     },
     {
-     "text": "Brent futures fell 0.7% to $108.79 a barrel and US crude 1.8% to $101.79.",
-     "url": "https://www.wsj.com/finance/stocks/stocks-make-a-u-turn-on-hopes-of-u-s-iran-diplomacy-39fb739b"
+     "text": "Brent climbed $1.30 to $114.47 a barrel as of 0639 GMT, after settling on Thursday at its highest since May 4.",
+     "url": "https://www.investing.com/news/commodities-news/oil-little-changed-as-supply-concern-lingers-amid-houthi-attacks-on-saudi-arabia-4967907"
     },
     {
-     "text": "Middle East oil flows averaged more than 24 million barrels a day in the week to 18 October, above prewar levels of 23.3 million.",
-     "url": "https://www.wsj.com/world/middle-east/more-oil-is-now-coming-out-of-the-persian-gulf-than-before-the-iran-war-6a6d1670"
+     "text": "Gold fell to its lowest in more than two months near $4,025 as the oil surge stoked worries about an energy-driven inflation shock.",
+     "url": "https://www.fxstreet.com/news/gold-falls-to-two-month-low-below-4-050-as-oil-spikes-202610222335"
     }
    ]
   }
