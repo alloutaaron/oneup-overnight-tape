@@ -1,79 +1,75 @@
 {
- "date": "2026-10-23",
+ "date": "2026-10-26",
  "sections": [
   {
    "section": "Rates",
-   "thesis": "Treasuries rallied as Meta's spending plans revived worries about the debt-funded AI boom and traders rushed into haven assets.",
-   "url": "https://www.ft.com/content/6e318b81-a771-4842-9754-e265fef2852f",
+   "thesis": "Treasuries rallied last week as tech fears sent investors into government bonds, giving yields their biggest one-day drop in three years.",
+   "url": "https://www.wsj.com/finance/stocks/stocks-pulled-in-two-directions-fall-to-end-volatile-week-0c2042a8",
    "sentences": [
     {
-     "text": "Treasuries rallied as Meta's spending plans revived worries about the debt-funded AI boom and traders rushed into haven assets.",
-     "url": "https://www.ft.com/content/6e318b81-a771-4842-9754-e265fef2852f"
+     "text": "Treasuries rallied last week as tech fears sent investors into government bonds, giving yields their biggest one-day drop in three years.",
+     "url": "https://www.wsj.com/finance/stocks/stocks-pulled-in-two-directions-fall-to-end-volatile-week-0c2042a8"
     },
     {
-     "text": "Ten-year yields fell 0.16 percentage points to just below 5 per cent, the best one-day performance since 2024.",
-     "url": "https://www.ft.com/content/6e318b81-a771-4842-9754-e265fef2852f"
+     "text": "The 10-year yield finished the week at 4.987%, after Friday's oil climb put the focus back on inflation.",
+     "url": "https://www.wsj.com/finance/stocks/stocks-pulled-in-two-directions-fall-to-end-volatile-week-0c2042a8"
     },
     {
-     "text": "A Barclays strategist said the rally was about potential cracks in the AI trade, not economic data.",
-     "url": "https://www.ft.com/content/6e318b81-a771-4842-9754-e265fef2852f"
+     "text": "The Federal Reserve meets October 27th\u201328th, and most traders expect it to hold off on raising rates until later meetings.",
+     "url": "https://www.zerohedge.com/news/2026-10-24/oil-tech-down"
     }
    ]
   },
   {
    "section": "FX",
-   "thesis": "The yen strengthened against the dollar after Japan's inflation report, with USD/JPY near 156.25 in early Asian trading.",
-   "url": "https://www.fxstreet.com/news/japanese-yen-gathers-strength-as-cpi-inflation-exceeds-target-backing-boj-rate-hikes-202610230028",
+   "thesis": "Lula won a fourth term as Brazil's president with 51.76 per cent against 48.24 per cent for Fl\u00e1vio Bolsonaro, and investors braced for a negative market reaction.",
+   "url": "https://www.ft.com/content/7585a18f-88d9-4fcd-882d-ed938c7c9c41",
    "sentences": [
     {
-     "text": "The yen strengthened against the dollar after Japan's inflation report, with USD/JPY near 156.25 in early Asian trading.",
-     "url": "https://www.fxstreet.com/news/japanese-yen-gathers-strength-as-cpi-inflation-exceeds-target-backing-boj-rate-hikes-202610230028"
+     "text": "Lula won a fourth term as Brazil's president with 51.76 per cent against 48.24 per cent for Fl\u00e1vio Bolsonaro, and investors braced for a negative market reaction.",
+     "url": "https://www.ft.com/content/7585a18f-88d9-4fcd-882d-ed938c7c9c41"
     },
     {
-     "text": "National CPI rose 2.1% from a year earlier in September versus 1.9% prior, while the measure excluding fresh food and energy climbed 2.4%.",
-     "url": "https://www.fxstreet.com/news/japanese-yen-gathers-strength-as-cpi-inflation-exceeds-target-backing-boj-rate-hikes-202610230028"
-    },
-    {
-     "text": "A gauge of the dollar edged 0.1% lower, its third straight daily fall.",
-     "url": "https://www.wsj.com/finance/currencies/asian-currencies-consolidate-amid-focus-on-mideast-developments-716c953b"
+     "text": "A Brazilian real future contract was down 10 per cent on Sunday evening, and Bolsonaro said he would launch a legal challenge.",
+     "url": "https://www.ft.com/content/7585a18f-88d9-4fcd-882d-ed938c7c9c41"
     }
    ]
   },
   {
    "section": "Equities",
-   "thesis": "Meta led a sharp US tech sell-off after its spending plans reignited concerns about the debt-fuelled AI build-out.",
-   "url": "https://www.ft.com/content/6e318b81-a771-4842-9754-e265fef2852f",
+   "thesis": "US stocks fell to end a volatile week, caught between doubts over AI spending and inflation fears driven by the Middle East conflict.",
+   "url": "https://www.wsj.com/finance/stocks/stocks-pulled-in-two-directions-fall-to-end-volatile-week-0c2042a8",
    "sentences": [
     {
-     "text": "Meta led a sharp US tech sell-off after its spending plans reignited concerns about the debt-fuelled AI build-out.",
-     "url": "https://www.ft.com/content/6e318b81-a771-4842-9754-e265fef2852f"
+     "text": "US stocks fell to end a volatile week, caught between doubts over AI spending and inflation fears driven by the Middle East conflict.",
+     "url": "https://www.wsj.com/finance/stocks/stocks-pulled-in-two-directions-fall-to-end-volatile-week-0c2042a8"
     },
     {
-     "text": "Its shares tumbled 7 per cent after it forecast needing to raise \"hundreds of billions of dollars\" over several years, stripping about $124bn from its value.",
-     "url": "https://www.ft.com/content/6e318b81-a771-4842-9754-e265fef2852f"
+     "text": "The S&P 500 ended the week 0.5% lower and the Nasdaq 0.7%, after Meta said it would create a nonvoting share class to raise capital for AI.",
+     "url": "https://www.wsj.com/finance/stocks/stocks-pulled-in-two-directions-fall-to-end-volatile-week-0c2042a8"
     },
     {
-     "text": "The Nasdaq 100 slid 2.9 per cent, the S&P 500 dropped 1.2 per cent and the Philadelphia semiconductor index fell almost 7 per cent.",
-     "url": "https://www.ft.com/content/6e318b81-a771-4842-9754-e265fef2852f"
+     "text": "Alphabet and Microsoft report on Wednesday and Amazon on Thursday.",
+     "url": "https://www.zerohedge.com/news/2026-10-24/oil-tech-down"
     }
    ]
   },
   {
    "section": "Commodities",
-   "thesis": "Oil rose on Friday as Houthi attacks in Saudi Arabia stoked concerns of further disruption to Middle East supplies.",
-   "url": "https://www.investing.com/news/commodities-news/oil-little-changed-as-supply-concern-lingers-amid-houthi-attacks-on-saudi-arabia-4967907",
+   "thesis": "Oil rose on Friday as prospects of escalation in the Middle East raised concerns about supply.",
+   "url": "https://www.wsj.com/finance/commodities-futures/oil-falls-on-likely-technical-correction-after-earlier-gains-8de529db",
    "sentences": [
     {
-     "text": "Oil rose on Friday as Houthi attacks in Saudi Arabia stoked concerns of further disruption to Middle East supplies.",
-     "url": "https://www.investing.com/news/commodities-news/oil-little-changed-as-supply-concern-lingers-amid-houthi-attacks-on-saudi-arabia-4967907"
+     "text": "Oil rose on Friday as prospects of escalation in the Middle East raised concerns about supply.",
+     "url": "https://www.wsj.com/finance/commodities-futures/oil-falls-on-likely-technical-correction-after-earlier-gains-8de529db"
     },
     {
-     "text": "Brent climbed $1.30 to $114.47 a barrel as of 0639 GMT, after settling on Thursday at its highest since May 4.",
-     "url": "https://www.investing.com/news/commodities-news/oil-little-changed-as-supply-concern-lingers-amid-houthi-attacks-on-saudi-arabia-4967907"
+     "text": "Brent rose 3.1% to $116.72 a barrel, its highest close since April 29, with flows through the Strait of Hormuz still 26% below prewar levels.",
+     "url": "https://www.wsj.com/finance/commodities-futures/oil-falls-on-likely-technical-correction-after-earlier-gains-8de529db"
     },
     {
-     "text": "Gold fell to its lowest in more than two months near $4,025 as the oil surge stoked worries about an energy-driven inflation shock.",
-     "url": "https://www.fxstreet.com/news/gold-falls-to-two-month-low-below-4-050-as-oil-spikes-202610222335"
+     "text": "In Asian trade on Monday, December Brent fell 1.5% to $115.01 in what was described as a likely technical correction.",
+     "url": "https://www.wsj.com/finance/commodities-futures/oil-declines-on-likely-technical-correction-ad4be59e"
     }
    ]
   }
