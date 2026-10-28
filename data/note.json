@@ -1,83 +1,91 @@
 {
- "date": "2026-10-27",
+ "date": "2026-10-28",
  "sections": [
   {
    "section": "Rates",
-   "thesis": "French government bonds rallied, erasing roughly half of last week's losses, after Moody's held France's rating at Aa3 with a negative outlook.",
-   "url": "https://www.ft.com/content/97a60042-f7b6-4c87-9387-8572968a7de0",
+   "thesis": "Australian inflation quickened in the third quarter, bolstering the case for a rate hike by the Reserve Bank of Australia.",
+   "url": "https://www.investing.com/news/economic-indicators/australia-q3-inflation-quickens-bolstering-rba-rate-hike-case-4977312",
    "sentences": [
     {
-     "text": "French government bonds rallied, erasing roughly half of last week's losses, after Moody's held France's rating at Aa3 with a negative outlook.",
-     "url": "https://www.ft.com/content/97a60042-f7b6-4c87-9387-8572968a7de0"
+     "text": "Australian inflation quickened in the third quarter, bolstering the case for a rate hike by the Reserve Bank of Australia.",
+     "url": "https://www.investing.com/news/economic-indicators/australia-q3-inflation-quickens-bolstering-rba-rate-hike-case-4977312"
     },
     {
-     "text": "The 10-year yield dropped 0.12 percentage points to 4.91%.",
-     "url": "https://www.ft.com/content/97a60042-f7b6-4c87-9387-8572968a7de0"
+     "text": "Monthly CPI inflation rose to 4.3% in September, above the 4.2% expected.",
+     "url": "https://www.fxstreet.com/news/australia-cpi-expected-to-rise-to-42-in-september-202610272030"
     },
     {
-     "text": "In the US, a $69BN 2-year auction tailed by 0.3bp ahead of this week's Fed decision, with foreign buyers taking just 45.7%, the lowest since November 2021.",
-     "url": "https://www.zerohedge.com/markets/foreign-demand-craters-ugly-tailing-2y-treasury-auction-ahead-fed-decision"
+     "text": "New Zealand's central bank left its rate unchanged at 2.75%, surprising markets.",
+     "url": "https://www.fxstreet.com/news/what-can-we-expect-from-the-rbnz-monetary-policy-decision-202610272058"
+    },
+    {
+     "text": "The Fed under Chairman Kevin Warsh announces its rate decision on Wednesday.",
+     "url": "https://www.wsj.com/finance/stocks/tech-stocks-power-higher-oil-cools-724e6a63"
     }
    ]
   },
   {
    "section": "FX",
-   "thesis": "Brazil's real had its biggest fall since 1999 after President Lula's surprise re-election raised concerns over public debt and spending.",
-   "url": "https://www.ft.com/content/bffe028e-838d-4e74-b05e-62f6db4978db",
+   "thesis": "The New Zealand dollar sank below 0.5600 against the US dollar after the central bank's surprise decision to hold rates.",
+   "url": "https://www.fxstreet.com/news/new-zealand-dollar-sinks-to-sub-05600-levels-vs-usd-after-rbnz-surprise-on-hold-decision-202610280145",
    "sentences": [
     {
-     "text": "Brazil's real had its biggest fall since 1999 after President Lula's surprise re-election raised concerns over public debt and spending.",
-     "url": "https://www.ft.com/content/bffe028e-838d-4e74-b05e-62f6db4978db"
+     "text": "The New Zealand dollar sank below 0.5600 against the US dollar after the central bank's surprise decision to hold rates.",
+     "url": "https://www.fxstreet.com/news/new-zealand-dollar-sinks-to-sub-05600-levels-vs-usd-after-rbnz-surprise-on-hold-decision-202610280145"
     },
     {
-     "text": "The real tumbled 8% against the US dollar to R$5.41.",
-     "url": "https://www.ft.com/content/bffe028e-838d-4e74-b05e-62f6db4978db"
+     "text": "The Australian dollar hit a fresh one-month high on hot inflation data, though a firmer US dollar capped it ahead of the Fed meeting.",
+     "url": "https://www.fxstreet.com/news/australian-dollar-hits-fresh-one-month-high-on-hot-cpi-firmer-usd-caps-ahead-of-fomc-202610280125"
     },
     {
-     "text": "Lula won 51.8% of the run-off vote against 48.2% for Fl\u00e1vio Bolsonaro, whom investors had hoped would tackle the budget deficit.",
-     "url": "https://www.ft.com/content/bffe028e-838d-4e74-b05e-62f6db4978db"
-    },
-    {
-     "text": "Investors now look to Lula's choice of finance minister.",
-     "url": "https://www.ft.com/content/bffe028e-838d-4e74-b05e-62f6db4978db"
+     "text": "The dollar held steady ahead of the Fed decision.",
+     "url": "https://www.investing.com/news/economy-news/stocks-get-ai-lift-dollar-holds-steady-ahead-of-fed-decision-4977355"
     }
    ]
   },
   {
    "section": "Equities",
-   "thesis": "US tech stocks rose after Anthropic filed to go public, with chip and hardware stocks tied to the AI buildout rallying and the PHLX Semiconductor Index up 2.8%.",
-   "url": "https://www.wsj.com/finance/stocks/tech-rallies-brazil-crashes-400a468f",
+   "thesis": "Tech stocks rose on Tuesday, buoyed by lower oil prices and the confidence Anthropic's IPO documents gave investors.",
+   "url": "https://www.ft.com/content/a4f9f81e-df30-4669-9eca-865d9d14e441",
    "sentences": [
     {
-     "text": "US tech stocks rose after Anthropic filed to go public, with chip and hardware stocks tied to the AI buildout rallying and the PHLX Semiconductor Index up 2.8%.",
-     "url": "https://www.wsj.com/finance/stocks/tech-rallies-brazil-crashes-400a468f"
+     "text": "Tech stocks rose on Tuesday, buoyed by lower oil prices and the confidence Anthropic's IPO documents gave investors.",
+     "url": "https://www.ft.com/content/a4f9f81e-df30-4669-9eca-865d9d14e441"
     },
     {
-     "text": "The S&P 500 rose 0.7% and the Nasdaq gained 0.8%.",
-     "url": "https://www.wsj.com/finance/stocks/tech-rallies-brazil-crashes-400a468f"
+     "text": "The Nasdaq 100 closed up 1.3% and the Philadelphia Semiconductor index rose 3.6%.",
+     "url": "https://www.ft.com/content/a4f9f81e-df30-4669-9eca-865d9d14e441"
     },
     {
-     "text": "Meta fell 1.9% after unveiling plans for up to $95 billion of stock offerings.",
-     "url": "https://www.wsj.com/finance/stocks/tech-rallies-brazil-crashes-400a468f"
+     "text": "CoreWeave climbed about 8%, while Boeing slid about 11% after a wider-than-expected quarterly loss.",
+     "url": "https://www.wsj.com/finance/stocks/tech-stocks-power-higher-oil-cools-724e6a63"
+    },
+    {
+     "text": "Boeing also cut its commercial aircraft delivery outlook.",
+     "url": "https://www.zerohedge.com/markets/boeing-share-crater-most-18-months-after-delivery-outlook-cut"
     }
    ]
   },
   {
    "section": "Commodities",
-   "thesis": "Oil fell for a second straight session as diplomatic efforts involving Iran, Saudi Arabia, Turkey and Pakistan tempered fears of a broader regional escalation.",
-   "url": "https://www.investing.com/news/commodities-news/oil-extends-losses-as-iran-mediation-efforts-ease-escalation-fears-4973997",
+   "thesis": "Brent crude fell 1.7% on Tuesday but remained just under $114 a barrel as attacks on Gulf shipping continued.",
+   "url": "https://www.wsj.com/finance/stocks/tech-stocks-power-higher-oil-cools-724e6a63",
    "sentences": [
     {
-     "text": "Oil fell for a second straight session as diplomatic efforts involving Iran, Saudi Arabia, Turkey and Pakistan tempered fears of a broader regional escalation.",
-     "url": "https://www.investing.com/news/commodities-news/oil-extends-losses-as-iran-mediation-efforts-ease-escalation-fears-4973997"
+     "text": "Brent crude fell 1.7% on Tuesday but remained just under $114 a barrel as attacks on Gulf shipping continued.",
+     "url": "https://www.wsj.com/finance/stocks/tech-stocks-power-higher-oil-cools-724e6a63"
     },
     {
-     "text": "December Brent futures fell 0.6% to $115.15 a barrel in Asian trading.",
-     "url": "https://www.investing.com/news/commodities-news/oil-extends-losses-as-iran-mediation-efforts-ease-escalation-fears-4973997"
+     "text": "Oil then rose after an attack on a Saudi Arabian refinery reignited supply concerns.",
+     "url": "https://www.investing.com/news/commodities-news/oil-prices-rise-after-attack-on-saudi-arabian-refinery-reignites-supply-concerns-4977369"
     },
     {
-     "text": "Iran said it is willing to reopen the Strait of Hormuz in four to seven days if the US lifts its blockade.",
-     "url": "https://www.zerohedge.com/geopolitical/mecca-pact-officials-tehran-last-ditch-diplomacy-us-prepares-96-hour-strike-window"
+     "text": "Yemen's Houthis said they hit the Ras Tanura refinery with a missile.",
+     "url": "https://www.fxstreet.com/news/yemens-houthis-say-they-hit-saudi-arabias-ras-tanura-oil-refinery-with-missile-202610272340"
+    },
+    {
+     "text": "US WTI crude rose above $100.00 amid a deadlock in Israel's election and the Saudi attack.",
+     "url": "https://www.fxstreet.com/news/wti-rises-above-10000-amid-israeli-election-deadlock-saudi-infrastructure-attack-202610280136"
     }
    ]
   }
