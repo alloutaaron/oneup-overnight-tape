@@ -1,91 +1,75 @@
 {
- "date": "2026-10-28",
+ "date": "2026-10-29",
  "sections": [
   {
    "section": "Rates",
-   "thesis": "Australian inflation quickened in the third quarter, bolstering the case for a rate hike by the Reserve Bank of Australia.",
-   "url": "https://www.investing.com/news/economic-indicators/australia-q3-inflation-quickens-bolstering-rba-rate-hike-case-4977312",
+   "thesis": "Longer-term Treasury yields rose while short-term yields fell after the Fed held rates steady, a sign of some concern the Fed may be too complacent on inflation.",
+   "url": "https://www.wsj.com/finance/investing/the-fed-held-steady-on-rates-leaving-investors-to-sit-tight-too-9c77723b",
    "sentences": [
     {
-     "text": "Australian inflation quickened in the third quarter, bolstering the case for a rate hike by the Reserve Bank of Australia.",
-     "url": "https://www.investing.com/news/economic-indicators/australia-q3-inflation-quickens-bolstering-rba-rate-hike-case-4977312"
+     "text": "Longer-term Treasury yields rose while short-term yields fell after the Fed held rates steady, a sign of some concern the Fed may be too complacent on inflation.",
+     "url": "https://www.wsj.com/finance/investing/the-fed-held-steady-on-rates-leaving-investors-to-sit-tight-too-9c77723b"
     },
     {
-     "text": "Monthly CPI inflation rose to 4.3% in September, above the 4.2% expected.",
-     "url": "https://www.fxstreet.com/news/australia-cpi-expected-to-rise-to-42-in-september-202610272030"
+     "text": "The vote was 10-2 to hold the benchmark in the 3.75%-4% range, with Lisa Cook joining Beth Hammack in dissent.",
+     "url": "https://www.zerohedge.com/markets/fomc-42"
     },
     {
-     "text": "New Zealand's central bank left its rate unchanged at 2.75%, surprising markets.",
-     "url": "https://www.fxstreet.com/news/what-can-we-expect-from-the-rbnz-monetary-policy-decision-202610272058"
-    },
-    {
-     "text": "The Fed under Chairman Kevin Warsh announces its rate decision on Wednesday.",
-     "url": "https://www.wsj.com/finance/stocks/tech-stocks-power-higher-oil-cools-724e6a63"
+     "text": "Futures show a roughly 85% chance of a December hike, and the 10-year yield hovered just above 5%, up from 4.992% Tuesday.",
+     "url": "https://www.wsj.com/finance/investing/the-fed-held-steady-on-rates-leaving-investors-to-sit-tight-too-9c77723b"
     }
    ]
   },
   {
    "section": "FX",
-   "thesis": "The New Zealand dollar sank below 0.5600 against the US dollar after the central bank's surprise decision to hold rates.",
-   "url": "https://www.fxstreet.com/news/new-zealand-dollar-sinks-to-sub-05600-levels-vs-usd-after-rbnz-surprise-on-hold-decision-202610280145",
+   "thesis": "The dollar index held above 102.00 near a two-week high, as oil-driven inflation concerns keep Fed hike bets on the table.",
+   "url": "https://www.fxstreet.com/news/us-dollar-index-dxy-holds-above-10200-as-bulls-seem-hesitant-ahead-of-crucial-us-data-202610290155",
    "sentences": [
     {
-     "text": "The New Zealand dollar sank below 0.5600 against the US dollar after the central bank's surprise decision to hold rates.",
-     "url": "https://www.fxstreet.com/news/new-zealand-dollar-sinks-to-sub-05600-levels-vs-usd-after-rbnz-surprise-on-hold-decision-202610280145"
+     "text": "The dollar index held above 102.00 near a two-week high, as oil-driven inflation concerns keep Fed hike bets on the table.",
+     "url": "https://www.fxstreet.com/news/us-dollar-index-dxy-holds-above-10200-as-bulls-seem-hesitant-ahead-of-crucial-us-data-202610290155"
     },
     {
-     "text": "The Australian dollar hit a fresh one-month high on hot inflation data, though a firmer US dollar capped it ahead of the Fed meeting.",
-     "url": "https://www.fxstreet.com/news/australian-dollar-hits-fresh-one-month-high-on-hot-cpi-firmer-usd-caps-ahead-of-fomc-202610280125"
-    },
-    {
-     "text": "The dollar held steady ahead of the Fed decision.",
-     "url": "https://www.investing.com/news/economy-news/stocks-get-ai-lift-dollar-holds-steady-ahead-of-fed-decision-4977355"
+     "text": "Geopolitical uncertainty also supports the dollar, as US officials tell regional allies to prepare for a possible campaign against Iran after the November 3 midterms.",
+     "url": "https://www.fxstreet.com/news/us-dollar-index-dxy-holds-above-10200-as-bulls-seem-hesitant-ahead-of-crucial-us-data-202610290155"
     }
    ]
   },
   {
    "section": "Equities",
-   "thesis": "Tech stocks rose on Tuesday, buoyed by lower oil prices and the confidence Anthropic's IPO documents gave investors.",
-   "url": "https://www.ft.com/content/a4f9f81e-df30-4669-9eca-865d9d14e441",
+   "thesis": "Alphabet shares plunged 8% after revenue and earnings missed estimates, as AI cuts into search and ad revenue.",
+   "url": "https://www.zerohedge.com/markets/google-plunges-after-ugly-top-and-bottom-line-miss-ai-cannibalizes-search-and-ads",
    "sentences": [
     {
-     "text": "Tech stocks rose on Tuesday, buoyed by lower oil prices and the confidence Anthropic's IPO documents gave investors.",
-     "url": "https://www.ft.com/content/a4f9f81e-df30-4669-9eca-865d9d14e441"
+     "text": "Alphabet shares plunged 8% after revenue and earnings missed estimates, as AI cuts into search and ad revenue.",
+     "url": "https://www.zerohedge.com/markets/google-plunges-after-ugly-top-and-bottom-line-miss-ai-cannibalizes-search-and-ads"
     },
     {
-     "text": "The Nasdaq 100 closed up 1.3% and the Philadelphia Semiconductor index rose 3.6%.",
-     "url": "https://www.ft.com/content/a4f9f81e-df30-4669-9eca-865d9d14e441"
+     "text": "Google Cloud revenue of $30.71 billion beat the $29.1 billion estimate, but free cash flow was negative for a second straight quarter.",
+     "url": "https://www.zerohedge.com/markets/google-plunges-after-ugly-top-and-bottom-line-miss-ai-cannibalizes-search-and-ads"
     },
     {
-     "text": "CoreWeave climbed about 8%, while Boeing slid about 11% after a wider-than-expected quarterly loss.",
-     "url": "https://www.wsj.com/finance/stocks/tech-stocks-power-higher-oil-cools-724e6a63"
-    },
-    {
-     "text": "Boeing also cut its commercial aircraft delivery outlook.",
-     "url": "https://www.zerohedge.com/markets/boeing-share-crater-most-18-months-after-delivery-outlook-cut"
+     "text": "Earlier the S&P 500 and Nasdaq composite each rose 0.3% on Warsh's tone, and Microsoft rose in late trading on a revenue beat.",
+     "url": "https://www.wsj.com/finance/investing/the-fed-held-steady-on-rates-leaving-investors-to-sit-tight-too-9c77723b"
     }
    ]
   },
   {
    "section": "Commodities",
-   "thesis": "Brent crude fell 1.7% on Tuesday but remained just under $114 a barrel as attacks on Gulf shipping continued.",
-   "url": "https://www.wsj.com/finance/stocks/tech-stocks-power-higher-oil-cools-724e6a63",
+   "thesis": "Brent is around $110 a barrel despite rebounding Gulf exports, on fears of renewed escalation, thin stockpiles and costly shipping.",
+   "url": "https://www.wsj.com/finance/commodities-futures/oil-is-gushing-out-of-the-gulf-why-are-prices-still-above-100-a-barrel-3ccff61d",
    "sentences": [
     {
-     "text": "Brent crude fell 1.7% on Tuesday but remained just under $114 a barrel as attacks on Gulf shipping continued.",
-     "url": "https://www.wsj.com/finance/stocks/tech-stocks-power-higher-oil-cools-724e6a63"
+     "text": "Brent is around $110 a barrel despite rebounding Gulf exports, on fears of renewed escalation, thin stockpiles and costly shipping.",
+     "url": "https://www.wsj.com/finance/commodities-futures/oil-is-gushing-out-of-the-gulf-why-are-prices-still-above-100-a-barrel-3ccff61d"
     },
     {
-     "text": "Oil then rose after an attack on a Saudi Arabian refinery reignited supply concerns.",
-     "url": "https://www.investing.com/news/commodities-news/oil-prices-rise-after-attack-on-saudi-arabian-refinery-reignites-supply-concerns-4977369"
+     "text": "Goldman Sachs estimates those fears have added about $27 a barrel to Brent.",
+     "url": "https://www.wsj.com/finance/commodities-futures/oil-is-gushing-out-of-the-gulf-why-are-prices-still-above-100-a-barrel-3ccff61d"
     },
     {
-     "text": "Yemen's Houthis said they hit the Ras Tanura refinery with a missile.",
-     "url": "https://www.fxstreet.com/news/yemens-houthis-say-they-hit-saudi-arabias-ras-tanura-oil-refinery-with-missile-202610272340"
-    },
-    {
-     "text": "US WTI crude rose above $100.00 amid a deadlock in Israel's election and the Saudi attack.",
-     "url": "https://www.fxstreet.com/news/wti-rises-above-10000-amid-israeli-election-deadlock-saudi-infrastructure-attack-202610280136"
+     "text": "European gas rose above \u20ac100 a megawatt hour for the first time in almost four years, as markets brace for renewed US strikes on Iran and a possible cold snap.",
+     "url": "https://www.ft.com/content/afe6e244-8433-4371-a26f-7aacbc9b8dcd"
     }
    ]
   }
