@@ -1,75 +1,75 @@
 {
- "date": "2026-10-29",
+ "date": "2026-10-30",
  "sections": [
   {
    "section": "Rates",
-   "thesis": "Longer-term Treasury yields rose while short-term yields fell after the Fed held rates steady, a sign of some concern the Fed may be too complacent on inflation.",
-   "url": "https://www.wsj.com/finance/investing/the-fed-held-steady-on-rates-leaving-investors-to-sit-tight-too-9c77723b",
+   "thesis": "Treasuries rallied despite strong third-quarter growth data, partly on a lower oil price and as investors sought safety from AI risk, leaving the 10-year yield 0.1 percentage points lower at 4.94%.",
+   "url": "https://www.ft.com/content/1639620b-99e7-47ed-8484-49646816489e",
    "sentences": [
     {
-     "text": "Longer-term Treasury yields rose while short-term yields fell after the Fed held rates steady, a sign of some concern the Fed may be too complacent on inflation.",
-     "url": "https://www.wsj.com/finance/investing/the-fed-held-steady-on-rates-leaving-investors-to-sit-tight-too-9c77723b"
+     "text": "Treasuries rallied despite strong third-quarter growth data, partly on a lower oil price and as investors sought safety from AI risk, leaving the 10-year yield 0.1 percentage points lower at 4.94%.",
+     "url": "https://www.ft.com/content/1639620b-99e7-47ed-8484-49646816489e"
     },
     {
-     "text": "The vote was 10-2 to hold the benchmark in the 3.75%-4% range, with Lisa Cook joining Beth Hammack in dissent.",
-     "url": "https://www.zerohedge.com/markets/fomc-42"
+     "text": "Headline PCE inflation rose 0.5% in September, lifting the annual rate to 3.6%, the highest since May.",
+     "url": "https://www.zerohedge.com/markets/feds-favorite-inflation-indicator-surges-september-soaring-energy-drags-americans-savings"
     },
     {
-     "text": "Futures show a roughly 85% chance of a December hike, and the 10-year yield hovered just above 5%, up from 4.992% Tuesday.",
-     "url": "https://www.wsj.com/finance/investing/the-fed-held-steady-on-rates-leaving-investors-to-sit-tight-too-9c77723b"
+     "text": "Markets put December hike odds back at 80%, with January odds falling to around 35%.",
+     "url": "https://www.zerohedge.com/markets/ad-mageddon-slams-tech-rates-reprice-after-fed-fallout-macro-maelstrom"
     }
    ]
   },
   {
    "section": "FX",
-   "thesis": "The dollar index held above 102.00 near a two-week high, as oil-driven inflation concerns keep Fed hike bets on the table.",
-   "url": "https://www.fxstreet.com/news/us-dollar-index-dxy-holds-above-10200-as-bulls-seem-hesitant-ahead-of-crucial-us-data-202610290155",
+   "thesis": "The dollar whipsawed around the ECB decision and ended unchanged.",
+   "url": "https://www.zerohedge.com/markets/ad-mageddon-slams-tech-rates-reprice-after-fed-fallout-macro-maelstrom",
    "sentences": [
     {
-     "text": "The dollar index held above 102.00 near a two-week high, as oil-driven inflation concerns keep Fed hike bets on the table.",
-     "url": "https://www.fxstreet.com/news/us-dollar-index-dxy-holds-above-10200-as-bulls-seem-hesitant-ahead-of-crucial-us-data-202610290155"
+     "text": "The dollar whipsawed around the ECB decision and ended unchanged.",
+     "url": "https://www.zerohedge.com/markets/ad-mageddon-slams-tech-rates-reprice-after-fed-fallout-macro-maelstrom"
     },
     {
-     "text": "Geopolitical uncertainty also supports the dollar, as US officials tell regional allies to prepare for a possible campaign against Iran after the November 3 midterms.",
-     "url": "https://www.fxstreet.com/news/us-dollar-index-dxy-holds-above-10200-as-bulls-seem-hesitant-ahead-of-crucial-us-data-202610290155"
+     "text": "The ECB held rates at 2.5%, with Christine Lagarde hinting at another increase at the December 17 meeting.",
+     "url": "https://www.ft.com/content/b9294b91-0eee-413b-bdde-0569f48539b9"
+    },
+    {
+     "text": "She also announced she will step down on February 7, nine months early.",
+     "url": "https://www.ft.com/content/b9294b91-0eee-413b-bdde-0569f48539b9"
     }
    ]
   },
   {
    "section": "Equities",
-   "thesis": "Alphabet shares plunged 8% after revenue and earnings missed estimates, as AI cuts into search and ad revenue.",
-   "url": "https://www.zerohedge.com/markets/google-plunges-after-ugly-top-and-bottom-line-miss-ai-cannibalizes-search-and-ads",
+   "thesis": "Alphabet fell 13% after core search revenue fell short, dragging the Nasdaq down 1.4% while the S&P 500 dropped 0.3%.",
+   "url": "https://www.wsj.com/finance/stocks/alphabet-stumbles-u-s-economy-surges-7f47a441",
    "sentences": [
     {
-     "text": "Alphabet shares plunged 8% after revenue and earnings missed estimates, as AI cuts into search and ad revenue.",
-     "url": "https://www.zerohedge.com/markets/google-plunges-after-ugly-top-and-bottom-line-miss-ai-cannibalizes-search-and-ads"
+     "text": "Alphabet fell 13% after core search revenue fell short, dragging the Nasdaq down 1.4% while the S&P 500 dropped 0.3%.",
+     "url": "https://www.wsj.com/finance/stocks/alphabet-stumbles-u-s-economy-surges-7f47a441"
     },
     {
-     "text": "Google Cloud revenue of $30.71 billion beat the $29.1 billion estimate, but free cash flow was negative for a second straight quarter.",
-     "url": "https://www.zerohedge.com/markets/google-plunges-after-ugly-top-and-bottom-line-miss-ai-cannibalizes-search-and-ads"
+     "text": "Deutsche Bank analysts said the results renewed doubts about the returns on AI spending.",
+     "url": "https://www.ft.com/content/1639620b-99e7-47ed-8484-49646816489e"
     },
     {
-     "text": "Earlier the S&P 500 and Nasdaq composite each rose 0.3% on Warsh's tone, and Microsoft rose in late trading on a revenue beat.",
-     "url": "https://www.wsj.com/finance/investing/the-fed-held-steady-on-rates-leaving-investors-to-sit-tight-too-9c77723b"
+     "text": "ServiceNow plunged 27%, and Exxon and Chevron report on Friday.",
+     "url": "https://www.wsj.com/finance/stocks/alphabet-stumbles-u-s-economy-surges-7f47a441"
     }
    ]
   },
   {
    "section": "Commodities",
-   "thesis": "Brent is around $110 a barrel despite rebounding Gulf exports, on fears of renewed escalation, thin stockpiles and costly shipping.",
+   "thesis": "Brent has climbed back to around $110 despite a rebound in Gulf exports, on fears of renewed escalation and dwindling stockpiles; Goldman Sachs estimates those fears add about $27 a barrel.",
    "url": "https://www.wsj.com/finance/commodities-futures/oil-is-gushing-out-of-the-gulf-why-are-prices-still-above-100-a-barrel-3ccff61d",
    "sentences": [
     {
-     "text": "Brent is around $110 a barrel despite rebounding Gulf exports, on fears of renewed escalation, thin stockpiles and costly shipping.",
+     "text": "Brent has climbed back to around $110 despite a rebound in Gulf exports, on fears of renewed escalation and dwindling stockpiles; Goldman Sachs estimates those fears add about $27 a barrel.",
      "url": "https://www.wsj.com/finance/commodities-futures/oil-is-gushing-out-of-the-gulf-why-are-prices-still-above-100-a-barrel-3ccff61d"
     },
     {
-     "text": "Goldman Sachs estimates those fears have added about $27 a barrel to Brent.",
-     "url": "https://www.wsj.com/finance/commodities-futures/oil-is-gushing-out-of-the-gulf-why-are-prices-still-above-100-a-barrel-3ccff61d"
-    },
-    {
-     "text": "European gas rose above \u20ac100 a megawatt hour for the first time in almost four years, as markets brace for renewed US strikes on Iran and a possible cold snap.",
-     "url": "https://www.ft.com/content/afe6e244-8433-4371-a26f-7aacbc9b8dcd"
+     "text": "Oil ended marginally lower after a dozen European countries pledged to release 42.6 million barrels by the end of January, while gold tested towards $4000.",
+     "url": "https://www.zerohedge.com/markets/ad-mageddon-slams-tech-rates-reprice-after-fed-fallout-macro-maelstrom"
     }
    ]
   }
