@@ -1,75 +1,87 @@
 {
- "date": "2026-10-30",
+ "date": "2026-11-03",
  "sections": [
   {
    "section": "Rates",
-   "thesis": "Treasuries rallied despite strong third-quarter growth data, partly on a lower oil price and as investors sought safety from AI risk, leaving the 10-year yield 0.1 percentage points lower at 4.94%.",
-   "url": "https://www.ft.com/content/1639620b-99e7-47ed-8484-49646816489e",
+   "thesis": "Government bonds rallied as lower oil prices eased inflation fears, taking the 10-year gilt yield down 0.09 percentage points to just under 5.2 per cent.",
+   "url": "https://www.ft.com/content/d7fe99f8-d292-4cb5-a8fd-45be0f8cc2b3",
    "sentences": [
     {
-     "text": "Treasuries rallied despite strong third-quarter growth data, partly on a lower oil price and as investors sought safety from AI risk, leaving the 10-year yield 0.1 percentage points lower at 4.94%.",
-     "url": "https://www.ft.com/content/1639620b-99e7-47ed-8484-49646816489e"
+     "text": "Government bonds rallied as lower oil prices eased inflation fears, taking the 10-year gilt yield down 0.09 percentage points to just under 5.2 per cent.",
+     "url": "https://www.ft.com/content/d7fe99f8-d292-4cb5-a8fd-45be0f8cc2b3"
     },
     {
-     "text": "Headline PCE inflation rose 0.5% in September, lifting the annual rate to 3.6%, the highest since May.",
-     "url": "https://www.zerohedge.com/markets/feds-favorite-inflation-indicator-surges-september-soaring-energy-drags-americans-savings"
+     "text": "The 10-year US Treasury yield settled at 4.893%.",
+     "url": "https://www.wsj.com/finance/investing/oil-tumbles-but-stocks-fail-to-launch-90972f94"
     },
     {
-     "text": "Markets put December hike odds back at 80%, with January odds falling to around 35%.",
-     "url": "https://www.zerohedge.com/markets/ad-mageddon-slams-tech-rates-reprice-after-fed-fallout-macro-maelstrom"
+     "text": "Markets price nearly 73% odds of a December US rate hike, down from 80% a week ago.",
+     "url": "https://www.fxstreet.com/news/gold-rises-to-near-3-950-as-traders-brace-for-us-midterm-election-202611022319"
+    },
+    {
+     "text": "Investors await midterm results, Wednesday's Treasury refunding announcement and the November 10 inflation reading.",
+     "url": "https://www.ft.com/content/937308d7-aa2e-4dac-b19b-423d83bc1253"
     }
    ]
   },
   {
    "section": "FX",
-   "thesis": "The dollar whipsawed around the ECB decision and ended unchanged.",
-   "url": "https://www.zerohedge.com/markets/ad-mageddon-slams-tech-rates-reprice-after-fed-fallout-macro-maelstrom",
+   "thesis": "The dollar came under pressure on news of a possible US-Iran breakthrough, with the Dollar Index at 101.72, down 0.24%.",
+   "url": "https://www.fxstreet.com/news/forex-today-the-us-dollar-retreats-as-us-elections-and-rba-loom-202611022041",
    "sentences": [
     {
-     "text": "The dollar whipsawed around the ECB decision and ended unchanged.",
-     "url": "https://www.zerohedge.com/markets/ad-mageddon-slams-tech-rates-reprice-after-fed-fallout-macro-maelstrom"
+     "text": "The dollar came under pressure on news of a possible US-Iran breakthrough, with the Dollar Index at 101.72, down 0.24%.",
+     "url": "https://www.fxstreet.com/news/forex-today-the-us-dollar-retreats-as-us-elections-and-rba-loom-202611022041"
     },
     {
-     "text": "The ECB held rates at 2.5%, with Christine Lagarde hinting at another increase at the December 17 meeting.",
-     "url": "https://www.ft.com/content/b9294b91-0eee-413b-bdde-0569f48539b9"
+     "text": "Upbeat US manufacturing data, at 55.5 against 54.6 expected, drew no noticeable reaction.",
+     "url": "https://www.fxstreet.com/news/us-ism-manufacturing-pmi-improces-to-555-in-october-vs-546-expected-202611021510"
     },
     {
-     "text": "She also announced she will step down on February 7, nine months early.",
-     "url": "https://www.ft.com/content/b9294b91-0eee-413b-bdde-0569f48539b9"
+     "text": "Australia's central bank is expected to raise rates 25 basis points to 4.85% today.",
+     "url": "https://www.fxstreet.com/news/rba-expected-to-raise-interest-rate-to-485-202611022330"
     }
    ]
   },
   {
    "section": "Equities",
-   "thesis": "Alphabet fell 13% after core search revenue fell short, dragging the Nasdaq down 1.4% while the S&P 500 dropped 0.3%.",
-   "url": "https://www.wsj.com/finance/stocks/alphabet-stumbles-u-s-economy-surges-7f47a441",
+   "thesis": "US stocks reversed morning gains as the AI selloff continued, with the Nasdaq down 1.1% and the S&P 500 down 0.5%.",
+   "url": "https://www.wsj.com/finance/investing/oil-tumbles-but-stocks-fail-to-launch-90972f94",
    "sentences": [
     {
-     "text": "Alphabet fell 13% after core search revenue fell short, dragging the Nasdaq down 1.4% while the S&P 500 dropped 0.3%.",
-     "url": "https://www.wsj.com/finance/stocks/alphabet-stumbles-u-s-economy-surges-7f47a441"
+     "text": "US stocks reversed morning gains as the AI selloff continued, with the Nasdaq down 1.1% and the S&P 500 down 0.5%.",
+     "url": "https://www.wsj.com/finance/investing/oil-tumbles-but-stocks-fail-to-launch-90972f94"
     },
     {
-     "text": "Deutsche Bank analysts said the results renewed doubts about the returns on AI spending.",
-     "url": "https://www.ft.com/content/1639620b-99e7-47ed-8484-49646816489e"
+     "text": "The Nasdaq 100 entered correction, down 10 per cent from its October 6 record, while Oracle slipped 8.9 per cent as it began a debt and equity sale.",
+     "url": "https://www.ft.com/content/d7fe99f8-d292-4cb5-a8fd-45be0f8cc2b3"
     },
     {
-     "text": "ServiceNow plunged 27%, and Exxon and Chevron report on Friday.",
-     "url": "https://www.wsj.com/finance/stocks/alphabet-stumbles-u-s-economy-surges-7f47a441"
+     "text": "Marvell fell 13% and Lumentum 19% after Marvell agreed to buy it.",
+     "url": "https://www.wsj.com/finance/investing/oil-tumbles-but-stocks-fail-to-launch-90972f94"
     }
    ]
   },
   {
    "section": "Commodities",
-   "thesis": "Brent has climbed back to around $110 despite a rebound in Gulf exports, on fears of renewed escalation and dwindling stockpiles; Goldman Sachs estimates those fears add about $27 a barrel.",
-   "url": "https://www.wsj.com/finance/commodities-futures/oil-is-gushing-out-of-the-gulf-why-are-prices-still-above-100-a-barrel-3ccff61d",
+   "thesis": "Oil fell sharply after Iran's president said the supreme leader had granted the government \"certain authorities\" in talks with the US.",
+   "url": "https://www.ft.com/content/d7fe99f8-d292-4cb5-a8fd-45be0f8cc2b3",
    "sentences": [
     {
-     "text": "Brent has climbed back to around $110 despite a rebound in Gulf exports, on fears of renewed escalation and dwindling stockpiles; Goldman Sachs estimates those fears add about $27 a barrel.",
-     "url": "https://www.wsj.com/finance/commodities-futures/oil-is-gushing-out-of-the-gulf-why-are-prices-still-above-100-a-barrel-3ccff61d"
+     "text": "Oil fell sharply after Iran's president said the supreme leader had granted the government \"certain authorities\" in talks with the US.",
+     "url": "https://www.ft.com/content/d7fe99f8-d292-4cb5-a8fd-45be0f8cc2b3"
     },
     {
-     "text": "Oil ended marginally lower after a dozen European countries pledged to release 42.6 million barrels by the end of January, while gold tested towards $4000.",
-     "url": "https://www.zerohedge.com/markets/ad-mageddon-slams-tech-rates-reprice-after-fed-fallout-macro-maelstrom"
+     "text": "Brent settled 7.6 per cent lower at $104.77, partly on the switch to the January contract, and WTI fell 7.4 per cent to $96.46.",
+     "url": "https://www.ft.com/content/d7fe99f8-d292-4cb5-a8fd-45be0f8cc2b3"
+    },
+    {
+     "text": "Trump said he is in \"no rush\" to decide on resuming attacks.",
+     "url": "https://www.zerohedge.com/energy/brent-wti-futs-tumble-trump-may-give-diplomacy-chance-iran-floats-two-day-hormuz-reopening"
+    },
+    {
+     "text": "Gold rose to around $3,950 as falling oil tempered inflation worries.",
+     "url": "https://www.fxstreet.com/news/gold-rises-to-near-3-950-as-traders-brace-for-us-midterm-election-202611022319"
     }
    ]
   }
