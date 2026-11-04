@@ -1,87 +1,79 @@
 {
- "date": "2026-11-03",
+ "date": "2026-11-04",
  "sections": [
   {
    "section": "Rates",
-   "thesis": "Government bonds rallied as lower oil prices eased inflation fears, taking the 10-year gilt yield down 0.09 percentage points to just under 5.2 per cent.",
-   "url": "https://www.ft.com/content/d7fe99f8-d292-4cb5-a8fd-45be0f8cc2b3",
+   "thesis": "Treasury yields eased as investors tracked early midterm results, with Republicans at risk of losing the House and possibly the Senate.",
+   "url": "https://www.fxstreet.com/news/japanese-yen-recovers-from-three-week-low-as-intervention-risks-meet-broadly-weaker-usd-202611040132",
    "sentences": [
     {
-     "text": "Government bonds rallied as lower oil prices eased inflation fears, taking the 10-year gilt yield down 0.09 percentage points to just under 5.2 per cent.",
-     "url": "https://www.ft.com/content/d7fe99f8-d292-4cb5-a8fd-45be0f8cc2b3"
+     "text": "Treasury yields eased as investors tracked early midterm results, with Republicans at risk of losing the House and possibly the Senate.",
+     "url": "https://www.fxstreet.com/news/japanese-yen-recovers-from-three-week-low-as-intervention-risks-meet-broadly-weaker-usd-202611040132"
     },
     {
-     "text": "The 10-year US Treasury yield settled at 4.893%.",
-     "url": "https://www.wsj.com/finance/investing/oil-tumbles-but-stocks-fail-to-launch-90972f94"
+     "text": "Democrats won control of the House, Decision Desk HQ projected.",
+     "url": "https://www.zerohedge.com/political/seven-toss-ups-decoy-candidate-and-1am-finish-your-election-night-survival-guide"
     },
     {
-     "text": "Markets price nearly 73% odds of a December US rate hike, down from 80% a week ago.",
-     "url": "https://www.fxstreet.com/news/gold-rises-to-near-3-950-as-traders-brace-for-us-midterm-election-202611022319"
+     "text": "The 2-year yield dropped five basis points to 4.566% and the 10-year six bp to 4.90%.",
+     "url": "https://www.fxstreet.com/news/breaking-us-dollar-falls-below-10150-as-early-midterm-results-point-to-democratic-gains-202611040146"
     },
     {
-     "text": "Investors await midterm results, Wednesday's Treasury refunding announcement and the November 10 inflation reading.",
-     "url": "https://www.ft.com/content/937308d7-aa2e-4dac-b19b-423d83bc1253"
+     "text": "Next is the Dec. 11 funding deadline.",
+     "url": "https://www.zerohedge.com/political/seven-toss-ups-decoy-candidate-and-1am-finish-your-election-night-survival-guide"
     }
    ]
   },
   {
    "section": "FX",
-   "thesis": "The dollar came under pressure on news of a possible US-Iran breakthrough, with the Dollar Index at 101.72, down 0.24%.",
-   "url": "https://www.fxstreet.com/news/forex-today-the-us-dollar-retreats-as-us-elections-and-rba-loom-202611022041",
+   "thesis": "The dollar fell as early midterm results pointed to Democratic gains, with the US Dollar Index around 101.25 in early Asian trading.",
+   "url": "https://www.fxstreet.com/news/breaking-us-dollar-falls-below-10150-as-early-midterm-results-point-to-democratic-gains-202611040146",
    "sentences": [
     {
-     "text": "The dollar came under pressure on news of a possible US-Iran breakthrough, with the Dollar Index at 101.72, down 0.24%.",
-     "url": "https://www.fxstreet.com/news/forex-today-the-us-dollar-retreats-as-us-elections-and-rba-loom-202611022041"
+     "text": "The dollar fell as early midterm results pointed to Democratic gains, with the US Dollar Index around 101.25 in early Asian trading.",
+     "url": "https://www.fxstreet.com/news/breaking-us-dollar-falls-below-10150-as-early-midterm-results-point-to-democratic-gains-202611040146"
     },
     {
-     "text": "Upbeat US manufacturing data, at 55.5 against 54.6 expected, drew no noticeable reaction.",
-     "url": "https://www.fxstreet.com/news/us-ism-manufacturing-pmi-improces-to-555-in-october-vs-546-expected-202611021510"
+     "text": "Potential gridlock and bargaining over the debt ceiling and fiscal policy weighed on it.",
+     "url": "https://www.zerohedge.com/political/seven-toss-ups-decoy-candidate-and-1am-finish-your-election-night-survival-guide"
     },
     {
-     "text": "Australia's central bank is expected to raise rates 25 basis points to 4.85% today.",
-     "url": "https://www.fxstreet.com/news/rba-expected-to-raise-interest-rate-to-485-202611022330"
+     "text": "Traders now look to the ADP jobs report and services survey.",
+     "url": "https://www.fxstreet.com/news/japanese-yen-recovers-from-three-week-low-as-intervention-risks-meet-broadly-weaker-usd-202611040132"
     }
    ]
   },
   {
    "section": "Equities",
-   "thesis": "US stocks reversed morning gains as the AI selloff continued, with the Nasdaq down 1.1% and the S&P 500 down 0.5%.",
-   "url": "https://www.wsj.com/finance/investing/oil-tumbles-but-stocks-fail-to-launch-90972f94",
+   "thesis": "US stock futures fell after early counts suggested a big night for Democrats, with Nasdaq 100 contracts down 2%, the Nikkei 225 down 3.5% and the Kospi down 3%.",
+   "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-03-2026",
    "sentences": [
     {
-     "text": "US stocks reversed morning gains as the AI selloff continued, with the Nasdaq down 1.1% and the S&P 500 down 0.5%.",
-     "url": "https://www.wsj.com/finance/investing/oil-tumbles-but-stocks-fail-to-launch-90972f94"
+     "text": "US stock futures fell after early counts suggested a big night for Democrats, with Nasdaq 100 contracts down 2%, the Nikkei 225 down 3.5% and the Kospi down 3%.",
+     "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-03-2026"
     },
     {
-     "text": "The Nasdaq 100 entered correction, down 10 per cent from its October 6 record, while Oracle slipped 8.9 per cent as it began a debt and equity sale.",
-     "url": "https://www.ft.com/content/d7fe99f8-d292-4cb5-a8fd-45be0f8cc2b3"
-    },
-    {
-     "text": "Marvell fell 13% and Lumentum 19% after Marvell agreed to buy it.",
-     "url": "https://www.wsj.com/finance/investing/oil-tumbles-but-stocks-fail-to-launch-90972f94"
+     "text": "A Democratic sweep could intensify scrutiny of data-center spending, power costs and AI regulation.",
+     "url": "https://www.zerohedge.com/political/seven-toss-ups-decoy-candidate-and-1am-finish-your-election-night-survival-guide"
     }
    ]
   },
   {
    "section": "Commodities",
-   "thesis": "Oil fell sharply after Iran's president said the supreme leader had granted the government \"certain authorities\" in talks with the US.",
-   "url": "https://www.ft.com/content/d7fe99f8-d292-4cb5-a8fd-45be0f8cc2b3",
+   "thesis": "WTI rose to around $96.10 in Asian hours on uncertainty over US-Iran talks.",
+   "url": "https://www.fxstreet.com/news/wti-rises-to-near-9600-amid-us-iran-peace-uncertainty-202611040114",
    "sentences": [
     {
-     "text": "Oil fell sharply after Iran's president said the supreme leader had granted the government \"certain authorities\" in talks with the US.",
-     "url": "https://www.ft.com/content/d7fe99f8-d292-4cb5-a8fd-45be0f8cc2b3"
+     "text": "WTI rose to around $96.10 in Asian hours on uncertainty over US-Iran talks.",
+     "url": "https://www.fxstreet.com/news/wti-rises-to-near-9600-amid-us-iran-peace-uncertainty-202611040114"
     },
     {
-     "text": "Brent settled 7.6 per cent lower at $104.77, partly on the switch to the January contract, and WTI fell 7.4 per cent to $96.46.",
-     "url": "https://www.ft.com/content/d7fe99f8-d292-4cb5-a8fd-45be0f8cc2b3"
+     "text": "Trump said the US has no immediate plans to strike Iran.",
+     "url": "https://www.ft.com/content/f3afd549-65fc-487e-922e-2748fa6a8a5f"
     },
     {
-     "text": "Trump said he is in \"no rush\" to decide on resuming attacks.",
-     "url": "https://www.zerohedge.com/energy/brent-wti-futs-tumble-trump-may-give-diplomacy-chance-iran-floats-two-day-hormuz-reopening"
-    },
-    {
-     "text": "Gold rose to around $3,950 as falling oil tempered inflation worries.",
-     "url": "https://www.fxstreet.com/news/gold-rises-to-near-3-950-as-traders-brace-for-us-midterm-election-202611022319"
+     "text": "Rebounding Gulf flows are pushing physical cargo costs down, with Dated Brent's premium over futures at roughly $3.70, from about $30 in early October.",
+     "url": "https://www.zerohedge.com/markets/physical-oil-flips-bidding-war-fire-sale-gulf-barrels-flood-back"
     }
    ]
   }
