@@ -1,91 +1,83 @@
 {
- "date": "2026-11-05",
+ "date": "2026-11-06",
  "sections": [
   {
    "section": "Rates",
-   "thesis": "Treasury yields fell as investors weighed Democrats' big midterm wins and lower oil prices.",
-   "url": "https://www.cnbc.com/2026/11/03/treasury-yields-fall-as-democrats-win-big-in-us-midterm-elections.html",
+   "thesis": "Treasuries rallied in a flight to quality as stocks sold off, taking the 10-year yield to its lowest level since Sept. 9.",
+   "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026",
    "sentences": [
     {
-     "text": "Treasury yields fell as investors weighed Democrats' big midterm wins and lower oil prices.",
-     "url": "https://www.cnbc.com/2026/11/03/treasury-yields-fall-as-democrats-win-big-in-us-midterm-elections.html"
+     "text": "Treasuries rallied in a flight to quality as stocks sold off, taking the 10-year yield to its lowest level since Sept. 9.",
+     "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026"
     },
     {
-     "text": "The 10-year yield fell to 4.891% from 4.951% and the two-year to 4.579%, its lowest since early September.",
-     "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-04-2026/card/treasury-yields-inflation-expectations-fall-after-democratic-wins-PpmJVM0PVDna5R1ZA1a0"
+     "text": "Two-year yields are down 17bp since before the election, and the odds of a December Fed hike fell to 65%.",
+     "url": "https://www.zerohedge.com/markets/fireworks-day-stocks-fawked-aitech-wrecked-bonds-bullion-bid"
     },
     {
-     "text": "Derivative markets priced inflation one year out at around 2.1%, down from 2.4% on Tuesday.",
-     "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-04-2026/card/treasury-yields-inflation-expectations-fall-after-democratic-wins-PpmJVM0PVDna5R1ZA1a0"
-    },
-    {
-     "text": "Friday's payrolls report is the key near-term catalyst.",
-     "url": "https://www.zerohedge.com/markets/crude-crashes-blue-nami-sparks-market-chaos-bullion-bitcoin-bonds-bid"
+     "text": "Cleveland Fed President Hammack still said policy needs to move to a restrictive stance.",
+     "url": "https://www.zerohedge.com/markets/fireworks-day-stocks-fawked-aitech-wrecked-bonds-bullion-bid"
     }
    ]
   },
   {
    "section": "FX",
-   "thesis": "The dollar fell as Democrats' control of both houses of Congress raised the risk of political gridlock.",
-   "url": "https://www.fxstreet.com/news/euro-holds-gains-as-us-dollar-weakens-following-midterm-elections-202611041822",
+   "thesis": "The yen gained as Bank of Japan minutes read as a case for a December hike, helped by the fall in US tech stocks.",
+   "url": "https://www.fxstreet.com/news/the-yen-rises-on-boj-minutes-with-ueda-and-us-nfp-on-the-friday-docket-202611052245",
    "sentences": [
     {
-     "text": "The dollar fell as Democrats' control of both houses of Congress raised the risk of political gridlock.",
-     "url": "https://www.fxstreet.com/news/euro-holds-gains-as-us-dollar-weakens-following-midterm-elections-202611041822"
+     "text": "The yen gained as Bank of Japan minutes read as a case for a December hike, helped by the fall in US tech stocks.",
+     "url": "https://www.fxstreet.com/news/the-yen-rises-on-boj-minutes-with-ueda-and-us-nfp-on-the-friday-docket-202611052245"
     },
     {
-     "text": "The US Dollar Index traded around 101.45, down 0.40% on the day, after a low of 101.21, its weakest since September 30.",
-     "url": "https://www.fxstreet.com/news/euro-holds-gains-as-us-dollar-weakens-following-midterm-elections-202611041822"
+     "text": "USD/JPY dropped from just under 159.00 to just above 157.50.",
+     "url": "https://www.fxstreet.com/news/the-yen-rises-on-boj-minutes-with-ueda-and-us-nfp-on-the-friday-docket-202611052245"
     },
     {
-     "text": "Resilient US data helped it regain some ground.",
-     "url": "https://www.fxstreet.com/news/euro-holds-gains-as-us-dollar-weakens-following-midterm-elections-202611041822"
-    },
-    {
-     "text": "ING said on Wednesday the dollar could see a little more weakness into 2027.",
-     "url": "https://www.fxstreet.com/news/us-dollar-softer-tone-as-midterms-reshape-policy-ing-202611041416"
+     "text": "The BoJ held at 1.25% on October 30 by eight votes to one and meets next on December 17-18.",
+     "url": "https://www.fxstreet.com/news/the-yen-rises-on-boj-minutes-with-ueda-and-us-nfp-on-the-friday-docket-202611052245"
     }
    ]
   },
   {
    "section": "Equities",
-   "thesis": "Wall Street had its biggest daily gain in months as investors bet the Democrats' win could restrain White House policymaking.",
-   "url": "https://www.ft.com/content/a0b18705-3bd8-4886-992c-b6062fdec6ea",
+   "thesis": "US stocks shed $3.2tn on fears that the Democrats' midterm sweep will cool the AI spending boom.",
+   "url": "https://www.ft.com/content/3d079b3d-580d-400b-bf9c-56af6a08f60f",
    "sentences": [
     {
-     "text": "Wall Street had its biggest daily gain in months as investors bet the Democrats' win could restrain White House policymaking.",
-     "url": "https://www.ft.com/content/a0b18705-3bd8-4886-992c-b6062fdec6ea"
+     "text": "US stocks shed $3.2tn on fears that the Democrats' midterm sweep will cool the AI spending boom.",
+     "url": "https://www.ft.com/content/3d079b3d-580d-400b-bf9c-56af6a08f60f"
     },
     {
-     "text": "The S&P 500 closed 1.6% higher, its biggest one-day jump since early August, while the Nasdaq 100 added 0.9%.",
-     "url": "https://www.ft.com/content/a0b18705-3bd8-4886-992c-b6062fdec6ea"
+     "text": "The Nasdaq 100 plunged 6.4% and Nvidia 9.3%, while the S&P 500 lost 4.4%, its worst session since last year's \"Liberation Day\" selloff.",
+     "url": "https://www.ft.com/content/3d079b3d-580d-400b-bf9c-56af6a08f60f"
     },
     {
-     "text": "Amazon and Microsoft jumped 6.1% and 6.7% on bets that established tech is less exposed to pushback on new data centres, while CoreWeave fell 9.9%.",
-     "url": "https://www.ft.com/content/a0b18705-3bd8-4886-992c-b6062fdec6ea"
+     "text": "Asia followed on Friday: South Korea's KOSPI fell more than 8%, triggering a circuit breaker, and Japan's Nikkei slumped 6%.",
+     "url": "https://www.investing.com/news/economy-news/asia-stocks-to-drop-after-ai-rout-rocks-us-markets-5006125"
     }
    ]
   },
   {
    "section": "Commodities",
-   "thesis": "Oil fell to its lowest in two months as the Democrats' landslide raised pressure on Donald Trump to end his war in Iran.",
-   "url": "https://www.ft.com/content/b526f876-810a-4e74-8b8d-4ffca04b29c7",
+   "thesis": "Oil rebounded on Thursday as traders reconsidered whether the midterm results would bring a swift end to the Iran war.",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Rebound-Sharply-After-Brutal-Midweek-Rout.html",
    "sentences": [
     {
-     "text": "Oil fell to its lowest in two months as the Democrats' landslide raised pressure on Donald Trump to end his war in Iran.",
-     "url": "https://www.ft.com/content/b526f876-810a-4e74-8b8d-4ffca04b29c7"
+     "text": "Oil rebounded on Thursday as traders reconsidered whether the midterm results would bring a swift end to the Iran war.",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Rebound-Sharply-After-Brutal-Midweek-Rout.html"
     },
     {
-     "text": "Brent settled 8.7% lower at $94.62 a barrel.",
-     "url": "https://www.ft.com/content/b526f876-810a-4e74-8b8d-4ffca04b29c7"
+     "text": "Brent climbed to $98.01 by early afternoon, after plunging 8.7% on Wednesday to settle at $94.62.",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Rebound-Sharply-After-Brutal-Midweek-Rout.html"
     },
     {
-     "text": "US diesel inventories fell below 100mn barrels for the first time in more than two decades.",
-     "url": "https://www.ft.com/content/f66ebf48-6d09-4a91-9af5-8bf7adca65ba"
+     "text": "Saudi Aramco cut its Arab Light price for Asian buyers by $2/bbl as Gulf producers compete for share with Hormuz flows recovering.",
+     "url": "https://www.zerohedge.com/markets/fireworks-day-stocks-fawked-aitech-wrecked-bonds-bullion-bid"
     },
     {
-     "text": "Gold rose over 3.60% to near $4,065 as the weaker dollar boosted its appeal.",
-     "url": "https://www.fxstreet.com/news/gold-surges-above-4-050-as-democrats-take-control-of-congress-202611042321"
+     "text": "Gold climbed some 1% to trade above $4,100.",
+     "url": "https://www.fxstreet.com/news/gold-rallies-above-4-100-as-nasdaq-100-crashes-december-hike-bets-fade-202611052023"
     }
    ]
   }
