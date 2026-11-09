@@ -1,83 +1,79 @@
 {
- "date": "2026-11-06",
+ "date": "2026-11-09",
  "sections": [
   {
    "section": "Rates",
-   "thesis": "Treasuries rallied in a flight to quality as stocks sold off, taking the 10-year yield to its lowest level since Sept. 9.",
-   "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026",
+   "thesis": "The US added 165,000 jobs in October, more than double the 65,000 forecast, reinforcing expectations that the Fed will raise rates next month.",
+   "url": "https://www.ft.com/content/f84c722c-99a9-4628-84dc-c42a192cb35c",
    "sentences": [
     {
-     "text": "Treasuries rallied in a flight to quality as stocks sold off, taking the 10-year yield to its lowest level since Sept. 9.",
-     "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026"
+     "text": "The US added 165,000 jobs in October, more than double the 65,000 forecast, reinforcing expectations that the Fed will raise rates next month.",
+     "url": "https://www.ft.com/content/f84c722c-99a9-4628-84dc-c42a192cb35c"
     },
     {
-     "text": "Two-year yields are down 17bp since before the election, and the odds of a December Fed hike fell to 65%.",
-     "url": "https://www.zerohedge.com/markets/fireworks-day-stocks-fawked-aitech-wrecked-bonds-bullion-bid"
+     "text": "Futures priced an 81% chance of a December increase, up from 67% on Thursday.",
+     "url": "https://www.ft.com/content/f84c722c-99a9-4628-84dc-c42a192cb35c"
     },
     {
-     "text": "Cleveland Fed President Hammack still said policy needs to move to a restrictive stance.",
-     "url": "https://www.zerohedge.com/markets/fireworks-day-stocks-fawked-aitech-wrecked-bonds-bullion-bid"
+     "text": "The two-year yield rose 0.03 percentage point to 4.51%.",
+     "url": "https://www.ft.com/content/f84c722c-99a9-4628-84dc-c42a192cb35c"
+    },
+    {
+     "text": "October consumer prices are due on Tuesday and producer prices on Friday.",
+     "url": "https://www.wsj.com/finance/stocks/tech-stocks-recover-some-losses-f494cd13"
     }
    ]
   },
   {
    "section": "FX",
-   "thesis": "The yen gained as Bank of Japan minutes read as a case for a December hike, helped by the fall in US tech stocks.",
-   "url": "https://www.fxstreet.com/news/the-yen-rises-on-boj-minutes-with-ueda-and-us-nfp-on-the-friday-docket-202611052245",
+   "thesis": "The dollar held near a 1-1/2-year high against the euro after surging by the most in nearly six months on Friday, as robust US jobs data pushed up bets for higher rates.",
+   "url": "https://www.investing.com/news/forex-news/us-dollar-holds-onto-payrolls-gains-nz-dollar-rises-after-election-5010398",
    "sentences": [
     {
-     "text": "The yen gained as Bank of Japan minutes read as a case for a December hike, helped by the fall in US tech stocks.",
-     "url": "https://www.fxstreet.com/news/the-yen-rises-on-boj-minutes-with-ueda-and-us-nfp-on-the-friday-docket-202611052245"
+     "text": "The dollar held near a 1-1/2-year high against the euro after surging by the most in nearly six months on Friday, as robust US jobs data pushed up bets for higher rates.",
+     "url": "https://www.investing.com/news/forex-news/us-dollar-holds-onto-payrolls-gains-nz-dollar-rises-after-election-5010398"
     },
     {
-     "text": "USD/JPY dropped from just under 159.00 to just above 157.50.",
-     "url": "https://www.fxstreet.com/news/the-yen-rises-on-boj-minutes-with-ueda-and-us-nfp-on-the-friday-docket-202611052245"
-    },
-    {
-     "text": "The BoJ held at 1.25% on October 30 by eight votes to one and meets next on December 17-18.",
-     "url": "https://www.fxstreet.com/news/the-yen-rises-on-boj-minutes-with-ueda-and-us-nfp-on-the-friday-docket-202611052245"
+     "text": "The dollar index was steady at 102.20 early on Monday after leaping around 0.7% on Friday, while the euro slumped 0.7% to a low of $1.1132.",
+     "url": "https://www.investing.com/news/forex-news/us-dollar-holds-onto-payrolls-gains-nz-dollar-rises-after-election-5010398"
     }
    ]
   },
   {
    "section": "Equities",
-   "thesis": "US stocks shed $3.2tn on fears that the Democrats' midterm sweep will cool the AI spending boom.",
-   "url": "https://www.ft.com/content/3d079b3d-580d-400b-bf9c-56af6a08f60f",
+   "thesis": "Tech stocks partly rebounded on Friday: the Nasdaq rose 1.1% and the S&P 500 0.3%, while the Dow declined 0.5%.",
+   "url": "https://www.wsj.com/finance/stocks/tech-stocks-recover-some-losses-f494cd13",
    "sentences": [
     {
-     "text": "US stocks shed $3.2tn on fears that the Democrats' midterm sweep will cool the AI spending boom.",
-     "url": "https://www.ft.com/content/3d079b3d-580d-400b-bf9c-56af6a08f60f"
+     "text": "Tech stocks partly rebounded on Friday: the Nasdaq rose 1.1% and the S&P 500 0.3%, while the Dow declined 0.5%.",
+     "url": "https://www.wsj.com/finance/stocks/tech-stocks-recover-some-losses-f494cd13"
     },
     {
-     "text": "The Nasdaq 100 plunged 6.4% and Nvidia 9.3%, while the S&P 500 lost 4.4%, its worst session since last year's \"Liberation Day\" selloff.",
-     "url": "https://www.ft.com/content/3d079b3d-580d-400b-bf9c-56af6a08f60f"
+     "text": "Advanced Micro Devices, Intel and CoreWeave gained 11%, 7.7% and 6.3%; the Nasdaq lost 3.4% for the week.",
+     "url": "https://www.wsj.com/finance/stocks/tech-stocks-recover-some-losses-f494cd13"
     },
     {
-     "text": "Asia followed on Friday: South Korea's KOSPI fell more than 8%, triggering a circuit breaker, and Japan's Nikkei slumped 6%.",
-     "url": "https://www.investing.com/news/economy-news/asia-stocks-to-drop-after-ai-rout-rocks-us-markets-5006125"
+     "text": "The rout has left major investors skeptical that Anthropic's IPO can achieve its $1.5 trillion valuation.",
+     "url": "https://www.wsj.com/finance/stocks/tech-stocks-recover-some-losses-f494cd13"
     }
    ]
   },
   {
    "section": "Commodities",
-   "thesis": "Oil rebounded on Thursday as traders reconsidered whether the midterm results would bring a swift end to the Iran war.",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Rebound-Sharply-After-Brutal-Midweek-Rout.html",
+   "thesis": "Oil fell at Monday's open after Trump said he was highly unlikely to order new attacks on Iran while talks make progress.",
+   "url": "https://www.investing.com/news/commodities-news/oil-falls-on-open-as-trump-says-fresh-iran-attacks-unlikely-5010359",
    "sentences": [
     {
-     "text": "Oil rebounded on Thursday as traders reconsidered whether the midterm results would bring a swift end to the Iran war.",
-     "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Rebound-Sharply-After-Brutal-Midweek-Rout.html"
+     "text": "Oil fell at Monday's open after Trump said he was highly unlikely to order new attacks on Iran while talks make progress.",
+     "url": "https://www.investing.com/news/commodities-news/oil-falls-on-open-as-trump-says-fresh-iran-attacks-unlikely-5010359"
     },
     {
-     "text": "Brent climbed to $98.01 by early afternoon, after plunging 8.7% on Wednesday to settle at $94.62.",
-     "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Rebound-Sharply-After-Brutal-Midweek-Rout.html"
+     "text": "Brent was down 84 cents at $97.48 a barrel by 0138 GMT, after a 17% drop last week, its steepest weekly fall since the start of the COVID pandemic.",
+     "url": "https://www.investing.com/news/commodities-news/oil-falls-on-open-as-trump-says-fresh-iran-attacks-unlikely-5010359"
     },
     {
-     "text": "Saudi Aramco cut its Arab Light price for Asian buyers by $2/bbl as Gulf producers compete for share with Hormuz flows recovering.",
-     "url": "https://www.zerohedge.com/markets/fireworks-day-stocks-fawked-aitech-wrecked-bonds-bullion-bid"
-    },
-    {
-     "text": "Gold climbed some 1% to trade above $4,100.",
-     "url": "https://www.fxstreet.com/news/gold-rallies-above-4-100-as-nasdaq-100-crashes-december-hike-bets-fade-202611052023"
+     "text": "JPMorgan said oil is headed for a glut again, estimating a surplus of 1.4 million bpd in October.",
+     "url": "https://www.investing.com/news/commodities-news/oil-falls-on-open-as-trump-says-fresh-iran-attacks-unlikely-5010359"
     }
    ]
   }
