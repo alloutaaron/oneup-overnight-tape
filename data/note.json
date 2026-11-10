@@ -1,79 +1,79 @@
 {
- "date": "2026-11-09",
+ "date": "2026-11-10",
  "sections": [
   {
    "section": "Rates",
-   "thesis": "The US added 165,000 jobs in October, more than double the 65,000 forecast, reinforcing expectations that the Fed will raise rates next month.",
-   "url": "https://www.ft.com/content/f84c722c-99a9-4628-84dc-c42a192cb35c",
+   "thesis": "Treasury yields rose as traders priced further Fed tightening after Friday's strong jobs report, lifting the 10-year yield two basis points to 4.889%.",
+   "url": "https://www.fxstreet.com/news/gold-defies-fed-hike-bets-tops-4-100-as-oil-rout-hits-the-usd-202611092026",
    "sentences": [
     {
-     "text": "The US added 165,000 jobs in October, more than double the 65,000 forecast, reinforcing expectations that the Fed will raise rates next month.",
-     "url": "https://www.ft.com/content/f84c722c-99a9-4628-84dc-c42a192cb35c"
+     "text": "Treasury yields rose as traders priced further Fed tightening after Friday's strong jobs report, lifting the 10-year yield two basis points to 4.889%.",
+     "url": "https://www.fxstreet.com/news/gold-defies-fed-hike-bets-tops-4-100-as-oil-rout-hits-the-usd-202611092026"
     },
     {
-     "text": "Futures priced an 81% chance of a December increase, up from 67% on Thursday.",
-     "url": "https://www.ft.com/content/f84c722c-99a9-4628-84dc-c42a192cb35c"
+     "text": "The CME FedWatch tool put December hike odds at 82%, up from 76% on Friday, while Fed officials Barkin and Goolsbee warned about inflation.",
+     "url": "https://www.fxstreet.com/news/australian-dollar-recovers-as-iran-peace-hopes-sink-oil-ahead-us-cpi-202611092318"
     },
     {
-     "text": "The two-year yield rose 0.03 percentage point to 4.51%.",
-     "url": "https://www.ft.com/content/f84c722c-99a9-4628-84dc-c42a192cb35c"
-    },
-    {
-     "text": "October consumer prices are due on Tuesday and producer prices on Friday.",
-     "url": "https://www.wsj.com/finance/stocks/tech-stocks-recover-some-losses-f494cd13"
+     "text": "A $58BN 3-year note sale drew a high yield of 4.627%, with the biggest tail since May.",
+     "url": "https://www.zerohedge.com/markets/record-directs-save-ugly-3y-auction-slide-foreign-demand-leads-biggest-tail-may"
     }
    ]
   },
   {
    "section": "FX",
-   "thesis": "The dollar held near a 1-1/2-year high against the euro after surging by the most in nearly six months on Friday, as robust US jobs data pushed up bets for higher rates.",
-   "url": "https://www.investing.com/news/forex-news/us-dollar-holds-onto-payrolls-gains-nz-dollar-rises-after-election-5010398",
+   "thesis": "The dollar weakened as the tumble in oil prices dragged it lower, with the US Dollar Index down 0.46% to 101.81.",
+   "url": "https://www.fxstreet.com/news/gold-defies-fed-hike-bets-tops-4-100-as-oil-rout-hits-the-usd-202611092026",
    "sentences": [
     {
-     "text": "The dollar held near a 1-1/2-year high against the euro after surging by the most in nearly six months on Friday, as robust US jobs data pushed up bets for higher rates.",
-     "url": "https://www.investing.com/news/forex-news/us-dollar-holds-onto-payrolls-gains-nz-dollar-rises-after-election-5010398"
+     "text": "The dollar weakened as the tumble in oil prices dragged it lower, with the US Dollar Index down 0.46% to 101.81.",
+     "url": "https://www.fxstreet.com/news/gold-defies-fed-hike-bets-tops-4-100-as-oil-rout-hits-the-usd-202611092026"
     },
     {
-     "text": "The dollar index was steady at 102.20 early on Monday after leaping around 0.7% on Friday, while the euro slumped 0.7% to a low of $1.1132.",
-     "url": "https://www.investing.com/news/forex-news/us-dollar-holds-onto-payrolls-gains-nz-dollar-rises-after-election-5010398"
+     "text": "The Australian dollar rose 0.88% to 0.6924 on speculation that Washington and Tehran may be close to a deal, with US CPI due Tuesday.",
+     "url": "https://www.fxstreet.com/news/australian-dollar-recovers-as-iran-peace-hopes-sink-oil-ahead-us-cpi-202611092318"
     }
    ]
   },
   {
    "section": "Equities",
-   "thesis": "Tech stocks partly rebounded on Friday: the Nasdaq rose 1.1% and the S&P 500 0.3%, while the Dow declined 0.5%.",
-   "url": "https://www.wsj.com/finance/stocks/tech-stocks-recover-some-losses-f494cd13",
+   "thesis": "US stocks surged as investors brushed off the midterm results and last week's selloff, with the S&P 500 posting its best day in seven months.",
+   "url": "https://www.wsj.com/finance/stocks/investors-brush-off-election-selloff-and-even-nvidias-spy-scandal-to-buy-stocks-8f6d406a",
    "sentences": [
     {
-     "text": "Tech stocks partly rebounded on Friday: the Nasdaq rose 1.1% and the S&P 500 0.3%, while the Dow declined 0.5%.",
-     "url": "https://www.wsj.com/finance/stocks/tech-stocks-recover-some-losses-f494cd13"
+     "text": "US stocks surged as investors brushed off the midterm results and last week's selloff, with the S&P 500 posting its best day in seven months.",
+     "url": "https://www.wsj.com/finance/stocks/investors-brush-off-election-selloff-and-even-nvidias-spy-scandal-to-buy-stocks-8f6d406a"
     },
     {
-     "text": "Advanced Micro Devices, Intel and CoreWeave gained 11%, 7.7% and 6.3%; the Nasdaq lost 3.4% for the week.",
-     "url": "https://www.wsj.com/finance/stocks/tech-stocks-recover-some-losses-f494cd13"
+     "text": "The index rose 2.3% and all 11 sectors closed higher, led by industrials as oil fell.",
+     "url": "https://www.wsj.com/finance/stocks/investors-brush-off-election-selloff-and-even-nvidias-spy-scandal-to-buy-stocks-8f6d406a"
     },
     {
-     "text": "The rout has left major investors skeptical that Anthropic's IPO can achieve its $1.5 trillion valuation.",
-     "url": "https://www.wsj.com/finance/stocks/tech-stocks-recover-some-losses-f494cd13"
+     "text": "Nvidia fell 4.3% after its board opened a probe into whether chief executive Jensen Huang revealed sensitive information to a suspected Chinese spy.",
+     "url": "https://www.wsj.com/finance/stocks/investors-brush-off-election-selloff-and-even-nvidias-spy-scandal-to-buy-stocks-8f6d406a"
+    },
+    {
+     "text": "The Nasdaq 100 rose 3.5%, recovering more than half its losses from Thursday's sell-off.",
+     "url": "https://www.ft.com/content/b8644327-86e7-4d1c-a71f-3fb1d552723b"
     }
    ]
   },
   {
    "section": "Commodities",
-   "thesis": "Oil fell at Monday's open after Trump said he was highly unlikely to order new attacks on Iran while talks make progress.",
-   "url": "https://www.investing.com/news/commodities-news/oil-falls-on-open-as-trump-says-fresh-iran-attacks-unlikely-5010359",
+   "thesis": "Oil slumped to a 10-week low after President Trump said it was \"highly unlikely\" the US would renew attacks on Iran.",
+   "url": "https://www.ft.com/content/1b818c16-5197-45f4-857a-49f99a10252f",
    "sentences": [
     {
-     "text": "Oil fell at Monday's open after Trump said he was highly unlikely to order new attacks on Iran while talks make progress.",
-     "url": "https://www.investing.com/news/commodities-news/oil-falls-on-open-as-trump-says-fresh-iran-attacks-unlikely-5010359"
+     "text": "Oil slumped to a 10-week low after President Trump said it was \"highly unlikely\" the US would renew attacks on Iran.",
+     "url": "https://www.ft.com/content/1b818c16-5197-45f4-857a-49f99a10252f"
     },
     {
-     "text": "Brent was down 84 cents at $97.48 a barrel by 0138 GMT, after a 17% drop last week, its steepest weekly fall since the start of the COVID pandemic.",
-     "url": "https://www.investing.com/news/commodities-news/oil-falls-on-open-as-trump-says-fresh-iran-attacks-unlikely-5010359"
+     "text": "Brent settled 5.9% lower at $92.57 a barrel and West Texas Intermediate 4.4% lower at $86.85, though attacks on Middle East shipping have continued.",
+     "url": "https://www.ft.com/content/1b818c16-5197-45f4-857a-49f99a10252f"
     },
     {
-     "text": "JPMorgan said oil is headed for a glut again, estimating a surplus of 1.4 million bpd in October.",
-     "url": "https://www.investing.com/news/commodities-news/oil-falls-on-open-as-trump-says-fresh-iran-attacks-unlikely-5010359"
+     "text": "Gold rose above $4,130 as the dollar weakened, supported by central bank buying.",
+     "url": "https://www.fxstreet.com/news/gold-defies-fed-hike-bets-tops-4-100-as-oil-rout-hits-the-usd-202611092026"
     }
    ]
   }
