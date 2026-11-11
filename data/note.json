@@ -1,79 +1,83 @@
 {
- "date": "2026-11-10",
+ "date": "2026-11-11",
  "sections": [
   {
    "section": "Rates",
-   "thesis": "Treasury yields rose as traders priced further Fed tightening after Friday's strong jobs report, lifting the 10-year yield two basis points to 4.889%.",
-   "url": "https://www.fxstreet.com/news/gold-defies-fed-hike-bets-tops-4-100-as-oil-rout-hits-the-usd-202611092026",
+   "thesis": "Treasuries sold off sharply after October consumer prices rose 0.4% against expectations of 0.3%, sparking bets the Fed will raise rates next month.",
+   "url": "https://www.ft.com/content/8b564134-dea6-4272-8ede-e0b12ef5aebd",
    "sentences": [
     {
-     "text": "Treasury yields rose as traders priced further Fed tightening after Friday's strong jobs report, lifting the 10-year yield two basis points to 4.889%.",
-     "url": "https://www.fxstreet.com/news/gold-defies-fed-hike-bets-tops-4-100-as-oil-rout-hits-the-usd-202611092026"
+     "text": "Treasuries sold off sharply after October consumer prices rose 0.4% against expectations of 0.3%, sparking bets the Fed will raise rates next month.",
+     "url": "https://www.ft.com/content/8b564134-dea6-4272-8ede-e0b12ef5aebd"
     },
     {
-     "text": "The CME FedWatch tool put December hike odds at 82%, up from 76% on Friday, while Fed officials Barkin and Goolsbee warned about inflation.",
-     "url": "https://www.fxstreet.com/news/australian-dollar-recovers-as-iran-peace-hopes-sink-oil-ahead-us-cpi-202611092318"
+     "text": "Two-year yields rose as much as 0.22 percentage points to 4.78%, and the 10-year topped 5% for the first time this month.",
+     "url": "https://www.ft.com/content/8b564134-dea6-4272-8ede-e0b12ef5aebd"
     },
     {
-     "text": "A $58BN 3-year note sale drew a high yield of 4.627%, with the biggest tail since May.",
-     "url": "https://www.zerohedge.com/markets/record-directs-save-ugly-3y-auction-slide-foreign-demand-leads-biggest-tail-may"
+     "text": "Fed governor Christopher Waller said if core inflation stayed at 0.3%, \"hiking only 25 basis points would put our credibility at risk\".",
+     "url": "https://www.ft.com/content/8b564134-dea6-4272-8ede-e0b12ef5aebd"
+    },
+    {
+     "text": "Japan's 10-year yield rose 5.9bp to 2.754% early Wednesday.",
+     "url": "https://www.wsj.com/finance/asian-bond-yields-rise-on-growing-expectations-for-fed-rate-hike-a2491a28"
     }
    ]
   },
   {
    "section": "FX",
-   "thesis": "The dollar weakened as the tumble in oil prices dragged it lower, with the US Dollar Index down 0.46% to 101.81.",
-   "url": "https://www.fxstreet.com/news/gold-defies-fed-hike-bets-tops-4-100-as-oil-rout-hits-the-usd-202611092026",
+   "thesis": "New US 10-year notes sold at 5%, the most since 2006, and the yen fell to its weakest against the dollar since mid-October, just under 159.00.",
+   "url": "https://www.fxstreet.com/news/yen-nears-15900-with-treasuries-back-above-5-202611102259",
    "sentences": [
     {
-     "text": "The dollar weakened as the tumble in oil prices dragged it lower, with the US Dollar Index down 0.46% to 101.81.",
-     "url": "https://www.fxstreet.com/news/gold-defies-fed-hike-bets-tops-4-100-as-oil-rout-hits-the-usd-202611092026"
+     "text": "New US 10-year notes sold at 5%, the most since 2006, and the yen fell to its weakest against the dollar since mid-October, just under 159.00.",
+     "url": "https://www.fxstreet.com/news/yen-nears-15900-with-treasuries-back-above-5-202611102259"
     },
     {
-     "text": "The Australian dollar rose 0.88% to 0.6924 on speculation that Washington and Tehran may be close to a deal, with US CPI due Tuesday.",
-     "url": "https://www.fxstreet.com/news/australian-dollar-recovers-as-iran-peace-hopes-sink-oil-ahead-us-cpi-202611092318"
+     "text": "The inflation data lifted two-year yields 19bp and revived talk of a 50bp Fed hike.",
+     "url": "https://www.fxstreet.com/news/us-dollar-hot-cpi-lifts-yields-and-fed-bets-rabobank-202611110430"
+    },
+    {
+     "text": "US producer prices for October are due Friday.",
+     "url": "https://www.fxstreet.com/news/yen-nears-15900-with-treasuries-back-above-5-202611102259"
     }
    ]
   },
   {
    "section": "Equities",
-   "thesis": "US stocks surged as investors brushed off the midterm results and last week's selloff, with the S&P 500 posting its best day in seven months.",
-   "url": "https://www.wsj.com/finance/stocks/investors-brush-off-election-selloff-and-even-nvidias-spy-scandal-to-buy-stocks-8f6d406a",
+   "thesis": "US stocks dropped after the inflation data added to rate-rise expectations, with the S&P 500 closing 0.4% lower and the Nasdaq 100 down 0.6%.",
+   "url": "https://www.ft.com/content/07bdb58c-4557-4def-b8cb-db9be304fd72",
    "sentences": [
     {
-     "text": "US stocks surged as investors brushed off the midterm results and last week's selloff, with the S&P 500 posting its best day in seven months.",
-     "url": "https://www.wsj.com/finance/stocks/investors-brush-off-election-selloff-and-even-nvidias-spy-scandal-to-buy-stocks-8f6d406a"
+     "text": "US stocks dropped after the inflation data added to rate-rise expectations, with the S&P 500 closing 0.4% lower and the Nasdaq 100 down 0.6%.",
+     "url": "https://www.ft.com/content/07bdb58c-4557-4def-b8cb-db9be304fd72"
     },
     {
-     "text": "The index rose 2.3% and all 11 sectors closed higher, led by industrials as oil fell.",
-     "url": "https://www.wsj.com/finance/stocks/investors-brush-off-election-selloff-and-even-nvidias-spy-scandal-to-buy-stocks-8f6d406a"
+     "text": "Nvidia dragged on all three indexes after chief executive Jensen Huang admitted an affair with a woman accused of spying for China.",
+     "url": "https://www.fxstreet.com/news/nasdaq-100-leads-us-indexes-lower-on-hot-cpi-and-nvidia-202611102140"
     },
     {
-     "text": "Nvidia fell 4.3% after its board opened a probe into whether chief executive Jensen Huang revealed sensitive information to a suspected Chinese spy.",
-     "url": "https://www.wsj.com/finance/stocks/investors-brush-off-election-selloff-and-even-nvidias-spy-scandal-to-buy-stocks-8f6d406a"
-    },
-    {
-     "text": "The Nasdaq 100 rose 3.5%, recovering more than half its losses from Thursday's sell-off.",
-     "url": "https://www.ft.com/content/b8644327-86e7-4d1c-a71f-3fb1d552723b"
+     "text": "CoreWeave rose 7% after hours on results and guidance above expectations, though it guided to $1.05 billion to $1.15 billion of fourth-quarter interest.",
+     "url": "https://www.zerohedge.com/markets/coreweave-pops-beat-and-raise-then-guides-11-billion-quarterly-interest-bill-debt-hits-47"
     }
    ]
   },
   {
    "section": "Commodities",
-   "thesis": "Oil slumped to a 10-week low after President Trump said it was \"highly unlikely\" the US would renew attacks on Iran.",
-   "url": "https://www.ft.com/content/1b818c16-5197-45f4-857a-49f99a10252f",
+   "thesis": "Oil fell below $90 a barrel for the first time since August after President Trump said renewed US attacks on Iran were \"highly unlikely\".",
+   "url": "https://www.ft.com/content/07bdb58c-4557-4def-b8cb-db9be304fd72",
    "sentences": [
     {
-     "text": "Oil slumped to a 10-week low after President Trump said it was \"highly unlikely\" the US would renew attacks on Iran.",
-     "url": "https://www.ft.com/content/1b818c16-5197-45f4-857a-49f99a10252f"
+     "text": "Oil fell below $90 a barrel for the first time since August after President Trump said renewed US attacks on Iran were \"highly unlikely\".",
+     "url": "https://www.ft.com/content/07bdb58c-4557-4def-b8cb-db9be304fd72"
     },
     {
-     "text": "Brent settled 5.9% lower at $92.57 a barrel and West Texas Intermediate 4.4% lower at $86.85, though attacks on Middle East shipping have continued.",
-     "url": "https://www.ft.com/content/1b818c16-5197-45f4-857a-49f99a10252f"
+     "text": "Brent fell as much as 3.7% to $89.16 before settling 1.2% lower at $91.49, and has fallen about 22% in November.",
+     "url": "https://www.ft.com/content/07bdb58c-4557-4def-b8cb-db9be304fd72"
     },
     {
-     "text": "Gold rose above $4,130 as the dollar weakened, supported by central bank buying.",
-     "url": "https://www.fxstreet.com/news/gold-defies-fed-hike-bets-tops-4-100-as-oil-rout-hits-the-usd-202611092026"
+     "text": "Prices rebounded early Wednesday, with Brent 0.75% higher at $92.19, while strikes continued around Hormuz.",
+     "url": "https://www.wsj.com/finance/asian-bond-yields-rise-on-growing-expectations-for-fed-rate-hike-a2491a28"
     }
    ]
   }
