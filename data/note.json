@@ -1,83 +1,71 @@
 {
- "date": "2026-11-11",
+ "date": "2026-11-12",
  "sections": [
   {
    "section": "Rates",
-   "thesis": "Treasuries sold off sharply after October consumer prices rose 0.4% against expectations of 0.3%, sparking bets the Fed will raise rates next month.",
-   "url": "https://www.ft.com/content/8b564134-dea6-4272-8ede-e0b12ef5aebd",
+   "thesis": "Fed funds futures now unanimously expect a rate hike in December after consumer prices rose 0.4% in October, the third straight month of outsized increases.",
+   "url": "https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html",
    "sentences": [
     {
-     "text": "Treasuries sold off sharply after October consumer prices rose 0.4% against expectations of 0.3%, sparking bets the Fed will raise rates next month.",
-     "url": "https://www.ft.com/content/8b564134-dea6-4272-8ede-e0b12ef5aebd"
+     "text": "Fed funds futures now unanimously expect a rate hike in December after consumer prices rose 0.4% in October, the third straight month of outsized increases.",
+     "url": "https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html"
     },
     {
-     "text": "Two-year yields rose as much as 0.22 percentage points to 4.78%, and the 10-year topped 5% for the first time this month.",
-     "url": "https://www.ft.com/content/8b564134-dea6-4272-8ede-e0b12ef5aebd"
+     "text": "Chicago Fed President Austan Goolsbee called the report \"borderline disturbing\", and futures put the odds of a half-point move at 15%.",
+     "url": "https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html"
     },
     {
-     "text": "Fed governor Christopher Waller said if core inflation stayed at 0.3%, \"hiking only 25 basis points would put our credibility at risk\".",
-     "url": "https://www.ft.com/content/8b564134-dea6-4272-8ede-e0b12ef5aebd"
-    },
-    {
-     "text": "Japan's 10-year yield rose 5.9bp to 2.754% early Wednesday.",
+     "text": "Those expectations sent the 10-year Treasury yield above 5% on Tuesday.",
      "url": "https://www.wsj.com/finance/asian-bond-yields-rise-on-growing-expectations-for-fed-rate-hike-a2491a28"
     }
    ]
   },
   {
    "section": "FX",
-   "thesis": "New US 10-year notes sold at 5%, the most since 2006, and the yen fell to its weakest against the dollar since mid-October, just under 159.00.",
-   "url": "https://www.fxstreet.com/news/yen-nears-15900-with-treasuries-back-above-5-202611102259",
+   "thesis": "The dollar index rose above 103.00, its highest since April 2025, as hot inflation data and hawkish Fed officials firmed bets on further hikes.",
+   "url": "https://www.fxstreet.com/news/us-dollar-index-dxy-rises-above-10300-highest-since-april-2025-on-fed-bets-iran-risks-202611120251",
    "sentences": [
     {
-     "text": "New US 10-year notes sold at 5%, the most since 2006, and the yen fell to its weakest against the dollar since mid-October, just under 159.00.",
-     "url": "https://www.fxstreet.com/news/yen-nears-15900-with-treasuries-back-above-5-202611102259"
+     "text": "The dollar index rose above 103.00, its highest since April 2025, as hot inflation data and hawkish Fed officials firmed bets on further hikes.",
+     "url": "https://www.fxstreet.com/news/us-dollar-index-dxy-rises-above-10300-highest-since-april-2025-on-fed-bets-iran-risks-202611120251"
     },
     {
-     "text": "The inflation data lifted two-year yields 19bp and revived talk of a 50bp Fed hike.",
-     "url": "https://www.fxstreet.com/news/us-dollar-hot-cpi-lifts-yields-and-fed-bets-rabobank-202611110430"
-    },
-    {
-     "text": "US producer prices for October are due Friday.",
-     "url": "https://www.fxstreet.com/news/yen-nears-15900-with-treasuries-back-above-5-202611102259"
+     "text": "The US-Iran standoff over the Strait of Hormuz also kept a risk premium supporting the dollar, with weekly jobless claims and Fed speeches next.",
+     "url": "https://www.fxstreet.com/news/us-dollar-index-dxy-rises-above-10300-highest-since-april-2025-on-fed-bets-iran-risks-202611120251"
     }
    ]
   },
   {
    "section": "Equities",
-   "thesis": "US stocks dropped after the inflation data added to rate-rise expectations, with the S&P 500 closing 0.4% lower and the Nasdaq 100 down 0.6%.",
-   "url": "https://www.ft.com/content/07bdb58c-4557-4def-b8cb-db9be304fd72",
+   "thesis": "US tech stocks jumped on Wednesday as better-than-expected CoreWeave results and a possibly higher Anthropic IPO valuation extended the rebound from last week's rout.",
+   "url": "https://www.ft.com/content/639de881-6017-454f-abfa-cfb191d1e7cd",
    "sentences": [
     {
-     "text": "US stocks dropped after the inflation data added to rate-rise expectations, with the S&P 500 closing 0.4% lower and the Nasdaq 100 down 0.6%.",
-     "url": "https://www.ft.com/content/07bdb58c-4557-4def-b8cb-db9be304fd72"
+     "text": "US tech stocks jumped on Wednesday as better-than-expected CoreWeave results and a possibly higher Anthropic IPO valuation extended the rebound from last week's rout.",
+     "url": "https://www.ft.com/content/639de881-6017-454f-abfa-cfb191d1e7cd"
     },
     {
-     "text": "Nvidia dragged on all three indexes after chief executive Jensen Huang admitted an affair with a woman accused of spying for China.",
-     "url": "https://www.fxstreet.com/news/nasdaq-100-leads-us-indexes-lower-on-hot-cpi-and-nvidia-202611102140"
+     "text": "The Nasdaq 100 rose 2.3% and the S&P 500 1.3%, with CoreWeave up 25%.",
+     "url": "https://www.ft.com/content/639de881-6017-454f-abfa-cfb191d1e7cd"
     },
     {
-     "text": "CoreWeave rose 7% after hours on results and guidance above expectations, though it guided to $1.05 billion to $1.15 billion of fourth-quarter interest.",
-     "url": "https://www.zerohedge.com/markets/coreweave-pops-beat-and-raise-then-guides-11-billion-quarterly-interest-bill-debt-hits-47"
+     "text": "Nvidia then fell 8.6% after the close on reports its board was considering chief executive Jensen Huang's future, and the Nasdaq 100 was set to open 0.75% lower on Thursday.",
+     "url": "https://www.ft.com/content/a93307a7-e2cd-4abd-bd89-c38832d8c40e"
     }
    ]
   },
   {
    "section": "Commodities",
-   "thesis": "Oil fell below $90 a barrel for the first time since August after President Trump said renewed US attacks on Iran were \"highly unlikely\".",
-   "url": "https://www.ft.com/content/07bdb58c-4557-4def-b8cb-db9be304fd72",
+   "thesis": "Brent rose nearly 3% on Wednesday as Iran denied it is negotiating with Washington, after losing about 21% since the start of November on bets the war was winding down.",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Jumps-3-to-94-as-Iran-Denies-Any-Talks-With-Washington.html",
    "sentences": [
     {
-     "text": "Oil fell below $90 a barrel for the first time since August after President Trump said renewed US attacks on Iran were \"highly unlikely\".",
-     "url": "https://www.ft.com/content/07bdb58c-4557-4def-b8cb-db9be304fd72"
+     "text": "Brent rose nearly 3% on Wednesday as Iran denied it is negotiating with Washington, after losing about 21% since the start of November on bets the war was winding down.",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Jumps-3-to-94-as-Iran-Denies-Any-Talks-With-Washington.html"
     },
     {
-     "text": "Brent fell as much as 3.7% to $89.16 before settling 1.2% lower at $91.49, and has fallen about 22% in November.",
-     "url": "https://www.ft.com/content/07bdb58c-4557-4def-b8cb-db9be304fd72"
-    },
-    {
-     "text": "Prices rebounded early Wednesday, with Brent 0.75% higher at $92.19, while strikes continued around Hormuz.",
-     "url": "https://www.wsj.com/finance/asian-bond-yields-rise-on-growing-expectations-for-fed-rate-hike-a2491a28"
+     "text": "Middle Eastern crude exports are near pre-war levels, but transport costs have reached as much as $30 a barrel and refined product flows remain at 37% of normal.",
+     "url": "https://www.zerohedge.com/energy/middle-east-oil-flows-far-normal-despite-signs-oversupply"
     }
    ]
   }
