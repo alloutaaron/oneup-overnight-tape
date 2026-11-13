@@ -1,71 +1,79 @@
 {
- "date": "2026-11-12",
+ "date": "2026-11-13",
  "sections": [
   {
    "section": "Rates",
-   "thesis": "Fed funds futures now unanimously expect a rate hike in December after consumer prices rose 0.4% in October, the third straight month of outsized increases.",
-   "url": "https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html",
+   "thesis": "Treasury yields rose again as dimming prospects for a US-Iran deal added to worries about the inflation outlook.",
+   "url": "https://www.wsj.com/finance/stocks/nvidia-tumbles-as-its-ceo-jensen-huang-departs-amid-multiplying-scandals-d380df1f",
    "sentences": [
     {
-     "text": "Fed funds futures now unanimously expect a rate hike in December after consumer prices rose 0.4% in October, the third straight month of outsized increases.",
-     "url": "https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html"
+     "text": "Treasury yields rose again as dimming prospects for a US-Iran deal added to worries about the inflation outlook.",
+     "url": "https://www.wsj.com/finance/stocks/nvidia-tumbles-as-its-ceo-jensen-huang-departs-amid-multiplying-scandals-d380df1f"
     },
     {
-     "text": "Chicago Fed President Austan Goolsbee called the report \"borderline disturbing\", and futures put the odds of a half-point move at 15%.",
-     "url": "https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html"
+     "text": "President Trump signalled an end to Vice-President JD Vance's push for an Iran peace deal, posting that the US does not need one.",
+     "url": "https://www.ft.com/content/3c1727bb-2966-4e5c-808b-873d14854fa2"
     },
     {
-     "text": "Those expectations sent the 10-year Treasury yield above 5% on Tuesday.",
-     "url": "https://www.wsj.com/finance/asian-bond-yields-rise-on-growing-expectations-for-fed-rate-hike-a2491a28"
+     "text": "His comments sent oil higher and accelerated the Treasury selloff, alongside a weak 30-year auction, with markets pricing a 75% chance of a Fed hike in January.",
+     "url": "https://www.zerohedge.com/markets/bitcoin-bonds-bullion-battered-brent-bid-big-tech-bounces-after-jensen-job-loss"
     }
    ]
   },
   {
    "section": "FX",
-   "thesis": "The dollar index rose above 103.00, its highest since April 2025, as hot inflation data and hawkish Fed officials firmed bets on further hikes.",
-   "url": "https://www.fxstreet.com/news/us-dollar-index-dxy-rises-above-10300-highest-since-april-2025-on-fed-bets-iran-risks-202611120251",
+   "thesis": "The yen weakened to 160 against the dollar as renewed US inflation worries strengthened the dollar, drawing a warning from Finance Minister Satsuki Katayama against rapid, one-sided moves.",
+   "url": "https://www.wsj.com/finance/currencies/japans-finance-minister-warns-against-rapid-yen-moves-cb65cc67",
    "sentences": [
     {
-     "text": "The dollar index rose above 103.00, its highest since April 2025, as hot inflation data and hawkish Fed officials firmed bets on further hikes.",
-     "url": "https://www.fxstreet.com/news/us-dollar-index-dxy-rises-above-10300-highest-since-april-2025-on-fed-bets-iran-risks-202611120251"
+     "text": "The yen weakened to 160 against the dollar as renewed US inflation worries strengthened the dollar, drawing a warning from Finance Minister Satsuki Katayama against rapid, one-sided moves.",
+     "url": "https://www.wsj.com/finance/currencies/japans-finance-minister-warns-against-rapid-yen-moves-cb65cc67"
     },
     {
-     "text": "The US-Iran standoff over the Strait of Hormuz also kept a risk premium supporting the dollar, with weekly jobless claims and Fed speeches next.",
-     "url": "https://www.fxstreet.com/news/us-dollar-index-dxy-rises-above-10300-highest-since-april-2025-on-fed-bets-iran-risks-202611120251"
+     "text": "She said Japan would coordinate closely with the US Treasury and respond appropriately.",
+     "url": "https://www.wsj.com/finance/currencies/japans-finance-minister-warns-against-rapid-yen-moves-cb65cc67"
+    },
+    {
+     "text": "Tokyo spent a record $50 billion in one day intervening over the summer, but the yen's downtrend has not reversed.",
+     "url": "https://www.wsj.com/finance/currencies/japans-finance-minister-warns-against-rapid-yen-moves-cb65cc67"
     }
    ]
   },
   {
    "section": "Equities",
-   "thesis": "US tech stocks jumped on Wednesday as better-than-expected CoreWeave results and a possibly higher Anthropic IPO valuation extended the rebound from last week's rout.",
-   "url": "https://www.ft.com/content/639de881-6017-454f-abfa-cfb191d1e7cd",
+   "thesis": "Nvidia shares fell as much as 14% after CEO Jensen Huang resigned, before closing down 5.4%.",
+   "url": "https://www.wsj.com/finance/stocks/nvidia-tumbles-as-its-ceo-jensen-huang-departs-amid-multiplying-scandals-d380df1f",
    "sentences": [
     {
-     "text": "US tech stocks jumped on Wednesday as better-than-expected CoreWeave results and a possibly higher Anthropic IPO valuation extended the rebound from last week's rout.",
-     "url": "https://www.ft.com/content/639de881-6017-454f-abfa-cfb191d1e7cd"
+     "text": "Nvidia shares fell as much as 14% after CEO Jensen Huang resigned, before closing down 5.4%.",
+     "url": "https://www.wsj.com/finance/stocks/nvidia-tumbles-as-its-ceo-jensen-huang-departs-amid-multiplying-scandals-d380df1f"
     },
     {
-     "text": "The Nasdaq 100 rose 2.3% and the S&P 500 1.3%, with CoreWeave up 25%.",
-     "url": "https://www.ft.com/content/639de881-6017-454f-abfa-cfb191d1e7cd"
+     "text": "The Nasdaq closed down 0.4% after falling about 1.5%, while rivals AMD and Broadcom advanced.",
+     "url": "https://www.wsj.com/finance/stocks/nvidia-tumbles-as-its-ceo-jensen-huang-departs-amid-multiplying-scandals-d380df1f"
     },
     {
-     "text": "Nvidia then fell 8.6% after the close on reports its board was considering chief executive Jensen Huang's future, and the Nasdaq 100 was set to open 0.75% lower on Thursday.",
-     "url": "https://www.ft.com/content/a93307a7-e2cd-4abd-bd89-c38832d8c40e"
+     "text": "Nvidia named finance chief Colette Kress interim CEO, with no clear successor in place.",
+     "url": "https://www.wsj.com/finance/stocks/nvidia-tumbles-as-its-ceo-jensen-huang-departs-amid-multiplying-scandals-d380df1f"
     }
    ]
   },
   {
    "section": "Commodities",
-   "thesis": "Brent rose nearly 3% on Wednesday as Iran denied it is negotiating with Washington, after losing about 21% since the start of November on bets the war was winding down.",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Jumps-3-to-94-as-Iran-Denies-Any-Talks-With-Washington.html",
+   "thesis": "Oil futures gave up early losses and closed higher after Trump said the US does not need a deal with Iran.",
+   "url": "https://www.wsj.com/finance/commodities-futures/oil-resumes-decline-as-risk-premium-fades-bcdc7fc5",
    "sentences": [
     {
-     "text": "Brent rose nearly 3% on Wednesday as Iran denied it is negotiating with Washington, after losing about 21% since the start of November on bets the war was winding down.",
-     "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Jumps-3-to-94-as-Iran-Denies-Any-Talks-With-Washington.html"
+     "text": "Oil futures gave up early losses and closed higher after Trump said the US does not need a deal with Iran.",
+     "url": "https://www.wsj.com/finance/commodities-futures/oil-resumes-decline-as-risk-premium-fades-bcdc7fc5"
     },
     {
-     "text": "Middle Eastern crude exports are near pre-war levels, but transport costs have reached as much as $30 a barrel and refined product flows remain at 37% of normal.",
-     "url": "https://www.zerohedge.com/energy/middle-east-oil-flows-far-normal-despite-signs-oversupply"
+     "text": "Brent rose 3.3% to $95.82 a barrel and WTI settled up 2.6% at $88.74, shrugging off strong builds in US crude, gasoline and diesel stocks.",
+     "url": "https://www.wsj.com/finance/commodities-futures/oil-resumes-decline-as-risk-premium-fades-bcdc7fc5"
+    },
+    {
+     "text": "Gold fell $113.60 to settle at $3,889.40 an ounce, a 52-week low, on rising bond yields and a stronger dollar.",
+     "url": "https://www.wsj.com/finance/stocks/nvidia-tumbles-as-its-ceo-jensen-huang-departs-amid-multiplying-scandals-d380df1f"
     }
    ]
   }
