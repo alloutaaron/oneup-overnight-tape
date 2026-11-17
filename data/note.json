@@ -1,83 +1,83 @@
 {
- "date": "2026-11-16",
+ "date": "2026-11-17",
  "sections": [
   {
    "section": "Rates",
-   "thesis": "Treasuries had their biggest weekly sell-off in more than 18 months after a bigger than expected 0.4% rise in October consumer prices forced investors out of bond bets.",
-   "url": "https://www.ft.com/content/7bebace2-dc87-410a-ae29-ffd9f3176def",
+   "thesis": "Treasury yields fell on Monday, with the 10-year yield dropping 0.03 percentage point to 5.122%.",
+   "url": "https://www.wsj.com/finance/stocks/ai-stocks-resume-their-slide-1094403c",
    "sentences": [
     {
-     "text": "Treasuries had their biggest weekly sell-off in more than 18 months after a bigger than expected 0.4% rise in October consumer prices forced investors out of bond bets.",
-     "url": "https://www.ft.com/content/7bebace2-dc87-410a-ae29-ffd9f3176def"
+     "text": "Treasury yields fell on Monday, with the 10-year yield dropping 0.03 percentage point to 5.122%.",
+     "url": "https://www.wsj.com/finance/stocks/ai-stocks-resume-their-slide-1094403c"
     },
     {
-     "text": "Ten-year yields rose 0.28 percentage points on the week to 5.14%, and two-year yields 0.33 points to 4.85%.",
-     "url": "https://www.ft.com/content/7bebace2-dc87-410a-ae29-ffd9f3176def"
+     "text": "Tumbling stocks and oil did little for bonds: the 30-year yield closed unchanged, and the rest of the week is heavy with Fed speakers.",
+     "url": "https://www.zerohedge.com/markets/huang-over-hormuz-headlines-hammer-stocks-spoos-lose-bonds-snooze"
     },
     {
-     "text": "Markets fully price a quarter-point Fed rise next month.",
-     "url": "https://www.ft.com/content/7bebace2-dc87-410a-ae29-ffd9f3176def"
-    },
-    {
-     "text": "Fed minutes come on Wednesday.",
-     "url": "https://www.wsj.com/finance/stocks/tech-stocks-fall-as-next-week-brings-big-tests-for-the-ai-trade-6a346b49"
+     "text": "Cleveland Fed President Beth Hammack said inflation is going in the wrong direction and that she prefers slow, steady rate increases.",
+     "url": "https://www.fxstreet.com/news/feds-hammack-backs-slow-hikes-as-inflation-broadens-202611161948"
     }
    ]
   },
   {
    "section": "FX",
-   "thesis": "The Australian dollar fell to near 0.6775 in early Asian trading on Monday as the US dollar edged higher on hawkish comments from Fed officials.",
-   "url": "https://www.fxstreet.com/news/australian-dollar-declines-below-06800-on-hawkish-fed-chinese-data-in-focus-202611152324",
+   "thesis": "The dollar index held at a 19-month peak on bets for an imminent Fed rate rise, lifted by last week's US inflation figures and hawkish Fed comments.",
+   "url": "https://www.fxstreet.com/news/euro-struggles-near-may-2025-lows-below-11000-vs-bullish-usd-202611170121",
    "sentences": [
     {
-     "text": "The Australian dollar fell to near 0.6775 in early Asian trading on Monday as the US dollar edged higher on hawkish comments from Fed officials.",
-     "url": "https://www.fxstreet.com/news/australian-dollar-declines-below-06800-on-hawkish-fed-chinese-data-in-focus-202611152324"
+     "text": "The dollar index held at a 19-month peak on bets for an imminent Fed rate rise, lifted by last week's US inflation figures and hawkish Fed comments.",
+     "url": "https://www.fxstreet.com/news/euro-struggles-near-may-2025-lows-below-11000-vs-bullish-usd-202611170121"
     },
     {
-     "text": "Sterling headed for a weekly loss of nearly 0.90% at around 1.3230 after US producer prices rose 6.5% from a year earlier.",
-     "url": "https://www.fxstreet.com/news/british-pound-faces-weekly-losses-as-us-ppi-keeps-fed-hawks-in-charge-202611131628"
+     "text": "The euro traded below 1.1000 in Asia on Tuesday, its lowest since May 2025, weighed by political gridlock and debt concerns in France.",
+     "url": "https://www.fxstreet.com/news/euro-struggles-near-may-2025-lows-below-11000-vs-bullish-usd-202611170121"
     },
     {
-     "text": "Traders await Chinese industrial production and retail sales data on Monday.",
-     "url": "https://www.fxstreet.com/news/australian-dollar-declines-below-06800-on-hawkish-fed-chinese-data-in-focus-202611152324"
+     "text": "Traders await US retail sales.",
+     "url": "https://www.fxstreet.com/news/euro-struggles-near-may-2025-lows-below-11000-vs-bullish-usd-202611170121"
     }
    ]
   },
   {
    "section": "Equities",
-   "thesis": "Tech stocks slumped on Friday as investors braced for further fallout from the crisis at Nvidia, with chip and data-center shares selling off.",
-   "url": "https://www.wsj.com/finance/stocks/tech-stocks-fall-as-next-week-brings-big-tests-for-the-ai-trade-6a346b49",
+   "thesis": "US tech stocks dropped at the start of a week seen as a big test of the AI boom.",
+   "url": "https://www.ft.com/content/12d927a9-98b1-40b9-8f75-01fb56a693d1",
    "sentences": [
     {
-     "text": "Tech stocks slumped on Friday as investors braced for further fallout from the crisis at Nvidia, with chip and data-center shares selling off.",
-     "url": "https://www.wsj.com/finance/stocks/tech-stocks-fall-as-next-week-brings-big-tests-for-the-ai-trade-6a346b49"
+     "text": "US tech stocks dropped at the start of a week seen as a big test of the AI boom.",
+     "url": "https://www.ft.com/content/12d927a9-98b1-40b9-8f75-01fb56a693d1"
     },
     {
-     "text": "Nvidia closed down 2%, the Nasdaq fell 0.9% and the S&P 500 lost 0.4%.",
-     "url": "https://www.wsj.com/finance/stocks/tech-stocks-fall-as-next-week-brings-big-tests-for-the-ai-trade-6a346b49"
+     "text": "The Nasdaq 100 fell 2.7% and the S&P 500 1.9%, while Nvidia lost 4.1% amid uncertainty after chief executive Jensen Huang's resignation last week.",
+     "url": "https://www.ft.com/content/12d927a9-98b1-40b9-8f75-01fb56a693d1"
     },
     {
-     "text": "Nvidia reports earnings on Tuesday, and Anthropic is expected to start trading on Thursday.",
-     "url": "https://www.wsj.com/finance/stocks/tech-stocks-fall-as-next-week-brings-big-tests-for-the-ai-trade-6a346b49"
+     "text": "Nvidia's board is not considering reinstating him.",
+     "url": "https://www.wsj.com/finance/stocks/ai-stocks-resume-their-slide-1094403c"
+    },
+    {
+     "text": "Nvidia reports results on Tuesday, and Anthropic is expected to begin trading on Thursday.",
+     "url": "https://www.ft.com/content/12d927a9-98b1-40b9-8f75-01fb56a693d1"
     }
    ]
   },
   {
    "section": "Commodities",
-   "thesis": "Oil markets swung to surplus for the first time since the US-Iran war began, underpinned by a surge in Gulf shipments.",
-   "url": "https://www.ft.com/content/20b68fe2-9d60-4c0c-b714-1f3e03015823",
+   "thesis": "Oil fell on Monday as shipments through the Strait of Hormuz recover.",
+   "url": "https://www.cnbc.com/2026/11/16/us-crude-oil-declines-to-87-a-barrel-on-recovering-middle-east-exports.html",
    "sentences": [
     {
-     "text": "Oil markets swung to surplus for the first time since the US-Iran war began, underpinned by a surge in Gulf shipments.",
-     "url": "https://www.ft.com/content/20b68fe2-9d60-4c0c-b714-1f3e03015823"
+     "text": "Oil fell on Monday as shipments through the Strait of Hormuz recover.",
+     "url": "https://www.cnbc.com/2026/11/16/us-crude-oil-declines-to-87-a-barrel-on-recovering-middle-east-exports.html"
     },
     {
-     "text": "Production outstripped consumption by almost 2mn barrels a day in October, and Brent settled at $95.84 a barrel on Friday.",
-     "url": "https://www.ft.com/content/20b68fe2-9d60-4c0c-b714-1f3e03015823"
+     "text": "Brent fell 3.55% to $92.44 a barrel and West Texas Intermediate settled down 3.58% at $85.39.",
+     "url": "https://www.cnbc.com/2026/11/16/us-crude-oil-declines-to-87-a-barrel-on-recovering-middle-east-exports.html"
     },
     {
-     "text": "Iran fired drones at Bahrain on Sunday, its second attack in three days, and its Guards said \"The Strait of Hormuz is closed.\"",
-     "url": "https://www.zerohedge.com/geopolitical/iran-hits-bahrain-again-guards-declare-hormuz-closed"
+     "text": "Gold dropped to a more than one-year low near $3,855 in early Asian trading on Tuesday amid a stronger dollar and expectations of a Fed rate rise next month.",
+     "url": "https://www.fxstreet.com/news/gold-falls-to-one-year-low-near-3-850-on-strong-us-dollar-rising-fed-hike-bets-202611162327"
     }
    ]
   }
