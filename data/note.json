@@ -1,79 +1,83 @@
 {
- "date": "2026-11-20",
+ "date": "2026-11-24",
  "sections": [
   {
    "section": "Rates",
-   "thesis": "Treasury yields turned lower as investors sought the safety of bonds once early enthusiasm over the Anthropic listing cooled.",
-   "url": "https://www.wsj.com/economy/central-banking/treasury-eurozone-bond-yields-edge-higher-47e08817",
+   "thesis": "New York Fed President John Williams said policymakers have more work to do to bring inflation under control, with further action unfolding over time.",
+   "url": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html",
    "sentences": [
     {
-     "text": "Treasury yields turned lower as investors sought the safety of bonds once early enthusiasm over the Anthropic listing cooled.",
-     "url": "https://www.wsj.com/economy/central-banking/treasury-eurozone-bond-yields-edge-higher-47e08817"
+     "text": "New York Fed President John Williams said policymakers have more work to do to bring inflation under control, with further action unfolding over time.",
+     "url": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html"
     },
     {
-     "text": "The 10-year yield slipped to 5.051% from 5.065% and the two-year to 4.777% from 4.798%.",
-     "url": "https://www.wsj.com/economy/central-banking/treasury-eurozone-bond-yields-edge-higher-47e08817"
+     "text": "The Fed meets Dec. 8-9, and markets fully price in a quarter percentage point increase from the current 3.75%-4% range.",
+     "url": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html"
     },
     {
-     "text": "Minutes of the Fed's October meeting showed some officials leaning toward a half-point hike in December, which money markets price at 8%.",
-     "url": "https://www.wsj.com/economy/central-banking/treasury-eurozone-bond-yields-edge-higher-47e08817"
+     "text": "The 10-year Treasury yield rose 0.02 percentage points to 4.93 per cent.",
+     "url": "https://www.ft.com/content/0f5a7285-fbf1-4120-86df-c9cca29644fc"
+    },
+    {
+     "text": "US October PCE inflation data is due Wednesday.",
+     "url": "https://www.fxstreet.com/news/gold-rebounds-above-3-600-as-ceo-nvidia-returns-markets-trim-fed-hike-202611232326"
     }
    ]
   },
   {
    "section": "FX",
-   "thesis": "The dollar rose to a new 52-week high, supported by expectations of further Fed tightening.",
-   "url": "https://www.wsj.com/finance/currencies/asian-currencies-consolidate-but-face-drag-from-fed-rate-bets-50c20e86",
+   "thesis": "The euro fell to its lowest since April 2025 as the US dollar rallied after Nvidia reinstated Jensen Huang as chief executive.",
+   "url": "https://www.fxstreet.com/news/euro-slides-to-lowest-level-since-april-2025-as-nvidia-led-stock-rally-lifts-sentiment-202611231606",
    "sentences": [
     {
-     "text": "The dollar rose to a new 52-week high, supported by expectations of further Fed tightening.",
-     "url": "https://www.wsj.com/finance/currencies/asian-currencies-consolidate-but-face-drag-from-fed-rate-bets-50c20e86"
+     "text": "The euro fell to its lowest since April 2025 as the US dollar rallied after Nvidia reinstated Jensen Huang as chief executive.",
+     "url": "https://www.fxstreet.com/news/euro-slides-to-lowest-level-since-april-2025-as-nvidia-led-stock-rally-lifts-sentiment-202611231606"
     },
     {
-     "text": "The WSJ Dollar Index gained 0.22% to 98.86, its highest close since April 2025.",
-     "url": "https://www.wsj.com/finance/currencies/asian-currencies-consolidate-but-face-drag-from-fed-rate-bets-50c20e86"
+     "text": "The dollar index rose to a fresh 19-month high of 104.43.",
+     "url": "https://www.fxstreet.com/news/euro-slides-to-lowest-level-since-april-2025-as-nvidia-led-stock-rally-lifts-sentiment-202611231606"
     },
     {
-     "text": "Danske Bank expects the Fed to extend its hiking cycle further than its peers and cut its euro forecast to $1.07.",
-     "url": "https://www.wsj.com/finance/currencies/asian-currencies-consolidate-but-face-drag-from-fed-rate-bets-50c20e86"
+     "text": "CME FedWatch shows a 99% chance of a 25-basis-point Fed hike in December.",
+     "url": "https://www.fxstreet.com/news/euro-slides-to-lowest-level-since-april-2025-as-nvidia-led-stock-rally-lifts-sentiment-202611231606"
     }
    ]
   },
   {
    "section": "Equities",
-   "thesis": "US stocks fell more than 2% after Anthropic's debut, even as its shares closed 17.1% above the price of the world's biggest IPO.",
-   "url": "https://www.ft.com/content/7a6b211d-c73b-4953-97ee-ed92dab8ee07",
+   "thesis": "US stocks made their biggest gains since April 2025 as Jensen Huang's return as Nvidia chief executive gave the AI trade a jolt.",
+   "url": "https://www.ft.com/content/0f5a7285-fbf1-4120-86df-c9cca29644fc",
    "sentences": [
     {
-     "text": "US stocks fell more than 2% after Anthropic's debut, even as its shares closed 17.1% above the price of the world's biggest IPO.",
-     "url": "https://www.ft.com/content/7a6b211d-c73b-4953-97ee-ed92dab8ee07"
+     "text": "US stocks made their biggest gains since April 2025 as Jensen Huang's return as Nvidia chief executive gave the AI trade a jolt.",
+     "url": "https://www.ft.com/content/0f5a7285-fbf1-4120-86df-c9cca29644fc"
     },
     {
-     "text": "The S&P 500 ended down 2% and the Nasdaq 100 2.2%, leaving the S&P 500 down 5.3% since the end of October.",
-     "url": "https://www.ft.com/content/7a6b211d-c73b-4953-97ee-ed92dab8ee07"
+     "text": "The Nasdaq 100 jumped 6.9 per cent and the S&P 500 rose 4.7 per cent, while Nvidia climbed 31.5 per cent, adding almost $1tn of market value.",
+     "url": "https://www.ft.com/content/0f5a7285-fbf1-4120-86df-c9cca29644fc"
     },
     {
-     "text": "AMD dropped 7.7% as individual investors sold it to fund Anthropic purchases and a short seller questioned its China exposure.",
-     "url": "https://www.wsj.com/livecoverage/anthropic-ipo-stock-market-today-11-19-2026/card/amd-sheds-67-billion-as-anthropic-debuts-kcfCndmmwbmDF1H0hhoD"
-    },
-    {
-     "text": "AMD says the claims misrepresent its practices.",
-     "url": "https://www.zerohedge.com/geopolitical/short-seller-comes-amds-china-problem-read-fine-print"
+     "text": "The PHLX Semiconductor Index jumped 14%.",
+     "url": "https://www.wsj.com/finance/stocks/i-fell-off-my-chair-investors-marvel-as-huangs-return-sends-stocks-rocketing-98131bc6"
     }
    ]
   },
   {
    "section": "Commodities",
-   "thesis": "Gold dropped more than 2.5% to its lowest since September 2025 as bets on further Fed rate hikes grew.",
-   "url": "https://www.fxstreet.com/news/gold-falls-to-14-month-low-below-3-650-on-hawkish-fed-signals-202611192321",
+   "thesis": "Oil slid nearly 4% as returning supply outweighed Gulf attacks, with WTI down 3.5% at $80.50 a barrel and Brent down 3.6% at 89.23 dollars at 10:29 ET.",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Slides-Nearly-4-as-Returning-Supply-Outweighs-Gulf-Attacks.html",
    "sentences": [
     {
-     "text": "Gold dropped more than 2.5% to its lowest since September 2025 as bets on further Fed rate hikes grew.",
-     "url": "https://www.fxstreet.com/news/gold-falls-to-14-month-low-below-3-650-on-hawkish-fed-signals-202611192321"
+     "text": "Oil slid nearly 4% as returning supply outweighed Gulf attacks, with WTI down 3.5% at $80.50 a barrel and Brent down 3.6% at 89.23 dollars at 10:29 ET.",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Slides-Nearly-4-as-Returning-Supply-Outweighs-Gulf-Attacks.html"
     },
     {
-     "text": "Copper led a wider metals sell-off driven by concerns over AI spending, a hawkish shift in Fed expectations and hopes of Middle East de-escalation, according to OCBC.",
-     "url": "https://www.fxstreet.com/news/gold-falls-to-14-month-low-below-3-650-on-hawkish-fed-signals-202611192321"
+     "text": "London Metal Exchange copper fell to less than $12,000 on Monday from above $14,670 late last month as traders doubted tariffs would be imposed.",
+     "url": "https://www.ft.com/content/b84dbcb1-f216-422e-89c7-f203e0ab2757"
+    },
+    {
+     "text": "Gold rebounded from a more than one-year low to around $3,635 in early Asian trading on Tuesday.",
+     "url": "https://www.fxstreet.com/news/gold-rebounds-above-3-600-as-ceo-nvidia-returns-markets-trim-fed-hike-202611232326"
     }
    ]
   }
